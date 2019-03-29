@@ -18,14 +18,6 @@
     vertical-align: top;
 }
 
-.circle-container {
-	height: 100%;
-	display: inline-block;
-	width: 4%;
-	text-align: center;
-}
-
-
 .circle {
 
   width: 1rem;

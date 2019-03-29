@@ -21,9 +21,11 @@ class TimelineElement extends Component {
 			<div class="wrapper">
 				<div class="timeline">
 					<span class="inline"> { this.props.year } </span>
-					<div class="circle-container">
-						<div class="circle"/>
-					</div>
+					<svg width="20" height="100">
+  						<circle cx="10" cy="50" r="9" stroke="green"  fill="black" />
+  						<line x1="10" y1="0" x2="10" y2="100" stroke="green"/>
+					</svg>
+			
 					<span class="inline"> { this.props.text } </span>
 				</div>
 				

@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './header/header';
 import Timeline from './timeline/timeline';
+import Background from './background/background';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Index() {
@@ -21,6 +22,7 @@ class App extends Component {
   render() {
     return (
     <div>
+      <Background/>
       <Header></Header>
       <Timeline/>
       <Router>
