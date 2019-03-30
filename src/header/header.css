@@ -27,9 +27,19 @@
 	font-size: 1.5rem;
 	font: normal normal normal 18px/1.4em 'times new roman',times,serif;
 	color: white;
+
 	background-color: #222222;
 	height: 3rem;
 	vertical-align: middle;
+}
+
+.nav-item :hover {
+	color: green;
+}
+
+.anchor {
+	color: white;
+	text-decoration: none;
 }
 
 .nav-space {

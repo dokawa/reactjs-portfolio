@@ -1,8 +1,9 @@
-.wrapper {
+.timeline-element-wrapper {
   height: 100%;
+  background-color: #EEEEEE;
 }
 
-.timeline {
+.timeline-element {
   width: 50%;
   margin: 0 auto;
   padding: 0;
@@ -20,6 +21,7 @@
     text-align: left;
     vertical-align: top;
     height: 100%;
+    color: #444444;
     font:normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
 
 

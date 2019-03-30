@@ -18,8 +18,8 @@ class TimelineElement extends Component {
 
 	render() {
 		return (
-			<div class="wrapper">
-				<div class="timeline">
+			<div class="timeline-element-wrapper">
+				<div class="timeline-element">
 					<span class="inline"> { this.props.year } </span>
 					<svg width="20" height="100%">
 					<circle cx="10" cy="50" r="9" stroke="green"  fill="black" />

@@ -9,8 +9,8 @@ class Background extends Component {
 				<div class="outer">
 				  	<div class="middle">
 				    	<div class="inner">
-				    		<h1 class="name">Daniel Akio Okawa</h1>
-				      		<h1 class="subtitle">ANALISTA DE PESQUISA E INOVAÇÃO</h1>
+				    		<div class="name">Daniel Akio Okawa</div>
+				      		<div class="subtitle">ANALISTA DE PESQUISA E INOVAÇÃO</div>
 				    	</div>
 				  	</div>
 				</div>

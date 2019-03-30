@@ -4,6 +4,7 @@ import './App.css';
 import Header from './header/header';
 import Timeline from './timeline/timeline';
 import Background from './background/background';
+import Footer from './footer/footer';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Index() {
@@ -23,29 +24,16 @@ class App extends Component {
     return (
     <div>
       <Background/>
-      <Header></Header>
-      <Timeline/>
-      <Router>
-        <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about/">About</Link>
-              </li>
-              <li>
-                <Link to="/users/">Users</Link>
-              </li>
-            </ul>
-          </nav>
 
+      <Router>
+        <Header></Header>
+        <div>
           <Route path="/" exact component={ Index } />
-          <Route path="/about/" component={About} />
+          <Route path="/experience/" exact component={ Timeline } />
           <Route path="/users/" component={Users} />
         </div>
       </Router>
+      <Footer/>
     </div>
   );
   }
