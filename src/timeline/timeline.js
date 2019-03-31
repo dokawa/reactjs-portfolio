@@ -26,6 +26,10 @@ class Timeline extends Component {
 			</div>			
 			);
 	}
+
+	//function buildTimeline() {
+
+	//}
 }
 
 export default Timeline;

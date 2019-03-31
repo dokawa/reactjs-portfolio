@@ -1,6 +1,12 @@
 .header {
+  	background-color: black;
   	position: sticky;
-    top: 0;
+  	top: 0;
+  	background-color: #222222;
+}
+
+.nav {
+
     /*background: green;*/
     justify-content: center;
 	display: flex;
@@ -11,10 +17,9 @@
 
 .picture {
 	border-radius: 50%;
-	height: 18rem;
-	width: 18rem;
-	border: 1em solid #FFFFFF;
-
+	height: 18vw; 
+	width: 18vw;
+	border: 1rem solid #FFFFFF;
 	position: absolute;
 	/*# center image*/
 	/*display: block;*/
@@ -24,17 +29,16 @@
 .nav-item {
 	width: 10%;
 	text-align: center;
-	font-size: 1.5rem;
-	font: normal normal normal 18px/1.4em 'times new roman',times,serif;
+	font-size: 1rem;
+	/* font: normal normal normal 18px/1.4em 'times new roman',times,serif; */
 	color: white;
-
+	padding: 1rem 0 1rem 0;
 	background-color: #222222;
-	height: 3rem;
 	vertical-align: middle;
 }
 
 .nav-item :hover {
-	color: green;
+	color: grey;
 }
 
 .anchor {
@@ -42,12 +46,19 @@
 	text-decoration: none;
 }
 
-.nav-space {
-	width: 5%;
+.nav-empty {
+	width: 10%;
+	padding: 1rem 0 1rem 0;
 	background-color: #222222;
 }
 
-.nav-empty {
-	width: 10%;
-	background-color: #222222;
+@media (max-width: 1200px) {
+	.picture {
+		height: 5rem;
+		width: 5rem;
+		display: none;
+	}
+	.nav-empty {
+		display: none;
+	}
 }

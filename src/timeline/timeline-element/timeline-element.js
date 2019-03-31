@@ -20,13 +20,13 @@ class TimelineElement extends Component {
 		return (
 			<div class="timeline-element-wrapper">
 				<div class="timeline-element">
-					<span class="inline"> { this.props.year } </span>
+					<span class="year"> { this.props.year } </span>
 					<svg width="20" height="100%">
-					<circle cx="10" cy="50" r="9" stroke="green"  fill="black" />
-  						<line x1="10" y1="0" x2="10" y2="100%" stroke="green"/>
+					<circle cx="10" cy="10" r="3" stroke="#444444"  fill="#444444" />
+  						<line x1="10" y1="0" x2="10" y2="100%" stroke="#444444"/>
 					</svg>
 			
-					<span class="inline"> { this.props.text } </span>
+					<span class="text"> { this.props.text } </span>
 				</div>
 				
 			</div>
