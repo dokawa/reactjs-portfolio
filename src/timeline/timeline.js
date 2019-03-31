@@ -5,26 +5,20 @@ class Timeline extends Component {
 	render() {
 		return(
 			<div>
-				<TimelineElement year = { "2018" } text = { "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-				    Nulla et nulla non velit sagittis molestie sed a tellus. \
-				    Etiam dui odio, tristique ac ornare id, dignissim et ex. \
-				    Etiam mattis consequat ultrices. Curabitur lorem purus, \
-				    faucibus sit amet faucibus at, aliquet ut leo. Fusce tempus mi vel nibh interdum,  \
-	    			vitae vulputate mi accumsan. Nunc scelerisque ut nulla quis porta. In porttitor erat eget lacinia porta. " } />
-				<TimelineElement year = { "2019" } text = { "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-				    Nulla et nulla non velit sagittis molestie sed a tellus. \
-				    Etiam dui odio, tristique ac ornare id, dignissim et ex. \
-				    Etiam mattis consequat ultrices. Curabitur lorem purus, \
-				    faucibus sit amet faucibus at, aliquet ut leo. Fusce tempus mi vel nibh interdum,  \
-	    			vitae vulputate mi accumsan. Nunc scelerisque ut nulla quis porta. In porttitor erat eget lacinia porta. " } />
-				<TimelineElement year = { "2017" } text = { "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-				    Nulla et nulla non velit sagittis molestie sed a tellus. \
-				    Etiam dui odio, tristique ac ornare id, dignissim et ex. \
-				    Etiam mattis consequat ultrices. Curabitur lorem purus, \
-				    faucibus sit amet faucibus at, aliquet ut leo. Fusce tempus mi vel nibh interdum,  \
-	    			vitae vulputate mi accumsan. Nunc scelerisque ut nulla quis porta. In porttitor erat eget lacinia porta. " } />
+				{ this.buildTimeline() }
 			</div>			
 			);
+	}
+
+	buildTimeline() {
+		console.log(this.props.entries);
+		if (!this.props.entries) {
+			return;
+		}
+		return this.props.entries.map(entry => {
+			return <TimelineElement year = { entry.year } text = { entry.text }/>
+		});
+
 	}
 }
 

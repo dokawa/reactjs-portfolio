@@ -7,21 +7,19 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class Header extends Component {
 	render() {
 		return (
-			<div>
-				<div class="header">
-						<span class="nav-item"></span>
-						<span class="nav-item"><Link to="/experience/" class="anchor">Experience</Link></span>
-						<span class="nav-item">Education</span>
-						<span class="space"></span>
-						<div class="imageholder">
-							<img src= { picture } class='picture'/>
-						</div>
-						<span class="nav-empty"></span>
-						<span class="nav-empty"></span>
-						<span class="space"></span>
-						<span class="nav-item">Personal Projects</span>
-						<span class="nav-item">Knowledge and Skills</span>
-						<span class="nav-item">Hobbies and Interests</span>
+			<div class = "header">
+				<div class="nav">
+					<span class="nav-empty"></span>
+					<span class="nav-item"><Link to="/experience/" class="anchor">Experience</Link></span>
+					<span class="nav-item"><Link to="/education/" class="anchor">Education</Link></span>
+					<div class="imageholder">
+						<img src= { picture } class='picture'/>
+					</div>
+					<span class="nav-empty"></span>
+					<span class="nav-empty"></span>
+					<span class="nav-item"><Link to="/personal-projects/" class="anchor">Personal Projects</Link></span>
+					<span class="nav-item"><Link to="/knowledge-and-skills/" class="anchor">Knowledge and Skills</Link></span>
+					<span class="nav-item"><Link to="/hobbies-and-interests/" class="anchor">Hobbies and Interests</Link></span>
 	        	</div>
 			</div>
 		)
