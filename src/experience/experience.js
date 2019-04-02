@@ -6,32 +6,24 @@ class Experience extends Component {
   		super(props);
 
   		this.state = { entries: [
-  			{ year: "2018", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-				    Nulla et nulla non velit sagittis molestie sed a tellus. \
-				    Etiam dui odio, tristique ac ornare id, dignissim et ex. \
-				    Etiam mattis consequat ultrices. Curabitur lorem purus, \
-				    faucibus sit amet faucibus at, aliquet ut leo. Fusce tempus mi vel nibh interdum,  \
-	    			vitae vulputate mi accumsan. Nunc scelerisque ut nulla quis porta. In porttitor erat eget lacinia porta. " },
-	    	{ year: "2019", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-				    Nulla et nulla non velit sagittis molestie sed a tellus. \
-				    Etiam dui odio, tristique ac ornare id, dignissim et ex. \
-				    Etiam mattis consequat ultrices. Curabitur lorem purus, \
-				    faucibus sit amet faucibus at, aliquet ut leo. Fusce tempus mi vel nibh interdum,  \
-	    			vitae vulputate mi accumsan. Nunc scelerisque ut nulla quis porta. In porttitor erat eget lacinia porta. "  },
-	    	{ year: "2020", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-				    Nulla et nulla non velit sagittis molestie sed a tellus. \
-				    Etiam dui odio, tristique ac ornare id, dignissim et ex. \
-				    Etiam mattis consequat ultrices. Curabitur lorem purus, \
-				    faucibus sit amet faucibus at, aliquet ut leo. Fusce tempus mi vel nibh interdum,  \
-	    			vitae vulputate mi accumsan. Nunc scelerisque ut nulla quis porta. In porttitor erat eget lacinia porta. " }
-
-  		] };
+  			{ year: "2016", text: "Participação no desenvolvimento de aplicativo Android de detecção de atividades (andando, correndo, parado, transporte, metrô, aeronave) \
+  			utilizando sensores do celular (acelerômetro, proximidade, GPS) \
+  			Desenvolvimento de bibliotecas java para a aplicação como módulo para identificação da casa e locais mais visitados, utilizando apenas dados de GPS e localização por Wi-fi" },
+	    	{ year: "2017", text: "Desenvolvimento de aplicação Apache Spark para identificar locais mais visitados utilizando dados de localização de aplicativo \
+			Desenvolvimento de aplicação Apache Spark utilizando API em java para clusterizar lugares mais visitados"  },
+	    	{ year: "2018", text: "Implementação de stack ELK (Elastic Search, Logstash e Kibana) para visualização de logs \
+			Desenvolvimento de aplicação em Python para gerar dados simulados para teste de carga em arquitetura de processamento de eventos \
+			Implementação de arquitetura de processamento de eventos utilizando Apache Flink e Kafka" }
+  			],
+  			title: "EXPERIENCE",
+  			subtitle: "Scopus Soluções em TI LTDA"
+  		};
   	}
 
 
 	render() {
 		return(
-			<Timeline entries = { this.state.entries }/>
+			<Timeline entries = { this.state.entries } title = { this.state.title } subtitle = { this.state.subtitle }/>
 		);
 	}
 

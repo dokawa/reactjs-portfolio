@@ -1,0 +1,8 @@
+.title {
+	text-align: center;
+	border-style: solid;
+	width: min-content();
+	margin: 3rem;
+	font-size: 2rem;
+	font-family: Impact;
+}

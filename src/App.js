@@ -34,9 +34,10 @@ class App extends Component {
           <Route path="/hobbies-and-interests/" component={ Users } />
         </div>
       </Router>
-      { <Footer/> }
+
       { <ContactInfo/> }
       { <PersonalInfo/> }
+      { <Footer/> }
     </div>
   );
   }
