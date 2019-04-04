@@ -32,7 +32,8 @@
     color: #444444;
     font:normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
     font-size: 1rem;
-    padding-right: 2rem;
+    /*padding-right: 2rem;*/
+    padding: 2rem;
 }
 
 .text {
@@ -45,7 +46,8 @@
     color: #444444;
     font:normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
     font-size: 1rem;
-    padding-left: 2rem;
+    /*padding-left: 2rem;*/
+    padding: 2rem;
 }
 
 .circle {

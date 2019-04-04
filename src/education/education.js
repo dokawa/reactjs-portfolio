@@ -6,32 +6,18 @@ class Education extends Component {
   		super(props);
 
   		this.state = { entries: [
-  			{ year: "2018", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-				    Nulla et nulla non velit sagittis molestie sed a tellus. \
-				    Etiam dui odio, tristique ac ornare id, dignissim et ex. \
-				    Etiam mattis consequat ultrices. Curabitur lorem purus, \
-				    faucibus sit amet faucibus at, aliquet ut leo. Fusce tempus mi vel nibh interdum,  \
-	    			vitae vulputate mi accumsan. Nunc scelerisque ut nulla quis porta. In porttitor erat eget lacinia porta. " },
-	    	{ year: "2019", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-				    Nulla et nulla non velit sagittis molestie sed a tellus. \
-				    Etiam dui odio, tristique ac ornare id, dignissim et ex. \
-				    Etiam mattis consequat ultrices. Curabitur lorem purus, \
-				    faucibus sit amet faucibus at, aliquet ut leo. Fusce tempus mi vel nibh interdum,  \
-	    			vitae vulputate mi accumsan. Nunc scelerisque ut nulla quis porta. In porttitor erat eget lacinia porta. "  },
-	    	{ year: "2020", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-				    Nulla et nulla non velit sagittis molestie sed a tellus. \
-				    Etiam dui odio, tristique ac ornare id, dignissim et ex. \
-				    Etiam mattis consequat ultrices. Curabitur lorem purus, \
-				    faucibus sit amet faucibus at, aliquet ut leo. Fusce tempus mi vel nibh interdum,  \
-	    			vitae vulputate mi accumsan. Nunc scelerisque ut nulla quis porta. In porttitor erat eget lacinia porta. " }
-
-  		] };
+  			{ year: "2010 - 2015", text: "Engenharia Elétrica Ênfase em Computação — Escola Politécnica da USP" },
+	    	{ year: "2006 - 2008", text: "Técnico em Mecatrônica — ETEC Presidente Vargas" },
+	    	{ year: "2006 - 2008", text: "Ensino Médio – ETEC Presidente Vargas" },
+  		],
+  		title: "Formação" 
+  		};
   	}
 
 
 	render() {
 		return(
-			<Timeline entries = { this.state.entries }/>
+			<Timeline entries = { this.state.entries } title = { this.state.title } />
 		);
 	}
 }

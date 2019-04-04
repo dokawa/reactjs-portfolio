@@ -5,12 +5,16 @@ class ContactInfo extends Component {
 	render() {
 		return(
 			<div>
-				<div class="title">Contact info</div>
-					<span class="info">E-mail:</span><span class="value">daniel.okawa@gmail.com</span>
-				<div>
-				</div>
-				<div>
-					<span class="info">Cellphone:</span><span class="value">(11) 97487-1303</span>
+				<div class="title">Contato</div>
+				<div class="container">
+					<div>
+						<p class="info">E-mail:</p>
+						<p class="info">Cel:</p>
+					</div>
+					<div>
+						<p class="value">daniel.okawa@gmail.com</p>
+						<p class="value">(11) 97487-1303</p>
+					</div>
 				</div>
 			</div>
 		)

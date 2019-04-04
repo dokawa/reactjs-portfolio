@@ -36,7 +36,7 @@ class App extends Component {
       </Router>
 
       { <ContactInfo/> }
-      { <PersonalInfo/> }
+      { /*<PersonalInfo/> */}
       { <Footer/> }
     </div>
   );
