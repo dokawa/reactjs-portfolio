@@ -1,8 +1,10 @@
 .title {
 	text-align: center;
 	border-style: solid;
-	width: min-content();
+	width: fit-content;
 	margin: 3rem;
 	font-size: 2rem;
 	font-family: Impact;
+	margin: 3rem auto;
+	padding: .2rem;
 }

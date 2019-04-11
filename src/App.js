@@ -8,8 +8,10 @@ import ContactInfo from './contact-info/contact-info';
 import PersonalInfo from './personal-info/personal-info';
 import Experience from './experience/experience';
 import PersonalProjects from './personal-projects/personal-projects';
+import HobbiesAndInterests from './hobbies-and-interests/hobbies-and-interests';
 import Education from './education/education';
 import Footer from './footer/footer';
+import Design from './hobbies-and-interests/design/design';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
@@ -31,7 +33,9 @@ class App extends Component {
           <Route path="/personal-projects/" component={ PersonalProjects } />
           <Route path="/education/" component={ Education } />
           <Route path="/knowledge-and-skills/" component={ Users } />
-          <Route path="/hobbies-and-interests/" component={ Users } />
+          <Route path="/hobbies-and-interests/" component={ HobbiesAndInterests } />
+          <Route path="/hobbies-and-interests/design" exact component={ Design } />
+          <Route path="/hobbies-and-interests/karate" exact component={ ContactInfo } />
         </div>
       </Router>
 

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import Timeline from '../timeline/timeline'
+import Timeline from '../timeline/timeline';
+import BuildIcon from '../assets/images/build - 512 x 512.png';
+import WallpaperIcon from '../assets/images/counter - 512 x 512.png';
+import CounterIcon from '../assets/images/wallpaper - 512 x 512.png';
 
 
 class PersonalProjects extends Component {
@@ -24,13 +27,20 @@ class PersonalProjects extends Component {
 				itens que eles podem comprar para cada personagem do jogo\
 				Detalhes da “Play Store”: 4.66 estrelas de 1862 avaliações e 2673 usuários ativos." }
   		],
-  			title: "Projetos Pessoais" };
+  			title: "PROJETOS PESSOAIS" };
   	}
 
 
 	render() {
 		return(
-			<Timeline entries = { this.state.entries } title = { this.state.title } />
+			<div>
+				<div class="title">{ this.state.title }</div>
+				<div><img class="icon" src={ BuildIcon }/></div>
+				<div></div>
+				<div></div>
+
+			</div>
+
 		);
 	}
 

@@ -10,7 +10,7 @@ class Education extends Component {
 	    	{ year: "2006 - 2008", text: "Técnico em Mecatrônica — ETEC Presidente Vargas" },
 	    	{ year: "2006 - 2008", text: "Ensino Médio – ETEC Presidente Vargas" },
   		],
-  		title: "Formação" 
+  		title: "FORMAÇÃO" 
   		};
   	}
 

@@ -5,7 +5,7 @@ class ContactInfo extends Component {
 	render() {
 		return(
 			<div>
-				<div class="title">Contato</div>
+				<div class="title">CONTATO</div>
 				<div class="container">
 					<div>
 						<p class="info">E-mail:</p>
