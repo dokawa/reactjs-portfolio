@@ -7,18 +7,7 @@ html {
   box-sizing: border-box;
 }*/
 
-a:link,
-a:hover,
-a:active,
-a:visited {
-  transition: color 150ms;
-  color: #95a5a6;
-  text-decoration: none;
-}
-a:hover {
-  color: #7f8c8d;
-  text-decoration: underline;
-}
+
 .contain {
   /*width: 100%;*/
     padding: 0 10px;
@@ -26,7 +15,7 @@ a:hover {
   background: #0e0f11;
   color: #ecf0f1;
   font-family: 'Open Sans', sans-serif;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: row;
   align-items: center;

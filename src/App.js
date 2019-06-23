@@ -12,6 +12,9 @@ import HobbiesAndInterests from './hobbies-and-interests/hobbies-and-interests';
 import Education from './education/education';
 import Footer from './footer/footer';
 import Design from './hobbies-and-interests/design/design';
+import Reading from './hobbies-and-interests/reading/reading';
+import Investing from './hobbies-and-interests/investing/investing';
+import Karate from './hobbies-and-interests/karate/karate';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
@@ -35,7 +38,9 @@ class App extends Component {
           <Route path="/knowledge-and-skills/" component={ Users } />
           <Route path="/hobbies-and-interests/" component={ HobbiesAndInterests } />
           <Route path="/hobbies-and-interests/design" exact component={ Design } />
-          <Route path="/hobbies-and-interests/karate" exact component={ ContactInfo } />
+          <Route path="/hobbies-and-interests/reading" exact component={ Reading } />
+          <Route path="/hobbies-and-interests/investing" exact component={ Investing } />
+          <Route path="/hobbies-and-interests/karate" exact component={ Karate } />
         </div>
       </Router>
 
