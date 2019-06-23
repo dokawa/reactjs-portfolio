@@ -23,7 +23,7 @@ class HobbiesAndInterests extends Component {
 	       		<Link to="/hobbies-and-interests/reading/"><SVG src={ Reading } /></Link>
 	       	</div>
 	       	<div class="svg-hobbie-and-interest-icon">
-	       		<Link to="/hobbies-and-interests/karate/"><SVG class="svg-hobbie-and-interest-icon" src={ Karate } /></Link>
+	       		<Link to="/hobbies-and-interests/karate/"><SVG className= { "svg-hobbie-and-interest-icon" }  src={ Karate } /></Link>
 	       	</div>
 			<div class="svg-hobbie-and-interest-icon">
 	       		<Link to="/hobbies-and-interests/investing/"><SVG src={ Investing } /></Link>

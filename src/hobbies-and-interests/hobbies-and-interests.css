@@ -1,0 +1,13 @@
+.img {
+	width: 100px;
+	height: 100px;
+}
+
+.svg-hobbie-and-interest-icon {
+	width: 100px;
+	height: 100px;
+}
+
+.container {
+	display: flex;
+}
