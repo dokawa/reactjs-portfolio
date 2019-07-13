@@ -6,25 +6,28 @@
 .timeline-element {
 
   /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
   text-align: center;
   padding: 0;
-  height: 100%;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .line-divider {
-  display: inline-flex;
-  height: 100%;
+  display: flex;
+}
 
+.line-container {
+  margin-left: calc(-50% - 0.5px);
+  position: relative;
 }
 
 .line-element {
-  border-left: 1px solid black;
-  width: 1rem;
+  position: absolute;
+  background-color: black;
+  width: 1px;
   height: 100%;
-  display: inline;
-  margin-left: -2rem;
 }
 
 
@@ -39,30 +42,26 @@
 
 .year {
   text-align: right;
-  width: 100%;
-    display: inline-block;
+  display: inline-block;
   width: 30rem;
-    vertical-align: top;
-    height: 100%;
-    color: #444444;
-    font:normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
-    font-size: 1rem;
-    /*padding-right: 2rem;*/
-    padding: 2rem;
+  vertical-align: top;
+  height: 100%;
+  color: #444444;
+  font:normal normal normal 1rem/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+  /*padding-right: 2rem;*/
+  padding: 2rem;
 }
 
 .text {
   text-align: left;
-    display: inline-block;
+  display: inline-block;
   width: 30rem;
-
-    vertical-align: top;
-    height: 100%;
-    color: #444444;
-    font:normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
-    font-size: 1rem;
-    /*padding-left: 2rem;*/
-    padding: 2rem;
+  vertical-align: top;
+  height: 100%;
+  color: #444444;
+  font:normal normal normal 1rem/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+  /*padding-left: 2rem;*/
+  padding: 2rem;
 }
 
 .circle {

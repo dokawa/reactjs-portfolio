@@ -15,7 +15,9 @@ class TimelineElement extends Component {
 							<circle cx="10" cy="45" r="3" stroke="#444444"  fill="#444444" />
 							</svg>
 						
-						<div class="line-element"></div>
+						<div class="line-container">
+							<div class="line-element"></div>
+						</div>
 					</div>
 					
 					<span class="text"> { this.props.text } </span>
