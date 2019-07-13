@@ -16,19 +16,12 @@ class HobbiesAndInterests extends Component {
   render() {
     return (
 	    <div class="container">
-	    	<div class="svg-hobbie-and-interest-icon">
-				<Link to="/hobbies-and-interests/design/"><SVG src={ Design } /></Link>
-	       	</div>
-	       	<div class="svg-hobbie-and-interest-icon">
-	       		<Link to="/hobbies-and-interests/reading/"><SVG src={ Reading } /></Link>
-	       	</div>
-	       	<div class="svg-hobbie-and-interest-icon">
-	       		<Link to="/hobbies-and-interests/karate/"><SVG className= { "svg-hobbie-and-interest-icon" }  src={ Karate } /></Link>
-	       	</div>
-			<div class="svg-hobbie-and-interest-icon">
-	       		<Link to="/hobbies-and-interests/investing/"><SVG src={ Investing } /></Link>
-	       	</div>
-	      <div>{ PersonalInfo }</div>
+			<Link to="/hobbies-and-interests/design/" class="svg-hobbie-and-interest-icon"><SVG src={ Design } /></Link>
+	   		<Link to="/hobbies-and-interests/reading/" class="svg-hobbie-and-interest-icon"><SVG src={ Reading } /></Link>
+	   		<Link to="/hobbies-and-interests/karate/" class="svg-hobbie-and-interest-icon"><SVG src={ Karate } /></Link>
+	   		<Link to="/hobbies-and-interests/investing/" class="svg-hobbie-and-interest-icon"><SVG src={ Investing } /></Link>
+	  
+	    	<div>{ PersonalInfo }</div>
 	    </div>
   	);
   }
