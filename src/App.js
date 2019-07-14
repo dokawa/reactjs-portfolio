@@ -15,6 +15,7 @@ import Design from './hobbies-and-interests/design/design';
 import Reading from './hobbies-and-interests/reading/reading';
 import Investing from './hobbies-and-interests/investing/investing';
 import Karate from './hobbies-and-interests/karate/karate';
+import BuildLeague from './personal-projects/projects/build-league'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
@@ -41,6 +42,7 @@ class App extends Component {
           <Route path="/hobbies-and-interests/reading" exact component={ Reading } />
           <Route path="/hobbies-and-interests/investing" exact component={ Investing } />
           <Route path="/hobbies-and-interests/karate" exact component={ Karate } />
+          <Route path="/personal-projects/build_league" exact component={ BuildLeague } />
         </div>
       </Router>
 

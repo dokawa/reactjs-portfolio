@@ -15,6 +15,7 @@ class ContactInfo extends Component {
 						<p class="value">daniel.okawa@gmail.com</p>
 						<p class="value">(11) 97487-1303</p>
 					</div>
+					<div>Linkedin</div>
 				</div>
 			</div>
 		)

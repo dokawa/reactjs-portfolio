@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Timeline from '../timeline/timeline';
 import BuildIcon from '../assets/images/build - 512 x 512.png';
 import WallpaperIcon from '../assets/images/wallpaper - 512 x 512.png';
 import CounterIcon from '../assets/images/counter - 512 x 512.png';
+import InstagramIcon from '../assets/images/instagram.png';
 import './personal-projects.css'
 
 
@@ -11,12 +13,12 @@ class PersonalProjects extends Component {
   		super(props);
 
   		this.state = { entries: [
-  			{ title: "Build LOL 2019", year: "2016 - 2019", text: "Participou do desenvolvimento do aplicativo Android “Build LOL 2018”\
+  			{ title: "Build LOL 2019", year: "2016 - 2019", text: "Participou do desenvolvimento do aplicativo Android \“Build LOL 2018\”\
 				Aplicativo que guia os jogadores de “League of Legends” ao apresentar uma escolha padrão de\
 				itens que eles podem comprar para cada personagem do jogo\
 				Detalhes da “Play Store”: 4.66 estrelas de 1862 avaliações e 2673 usuários ativos." },
 
-	    	{ title: "Wallpaper League 2019", year: "2016 - 2019", text: "Participou do desenvolvimento do aplicativo Android \“Wallpaper LOL 2018\”\
+	    	{ title: "Wallpaper LOL 2019", year: "2016 - 2019", text: "Participou do desenvolvimento do aplicativo Android \“Wallpaper LOL 2018\”\
 				Aplicativo que auxilia os usuários a encontrar e colocar as imagens dos personagens de \“League\
 				of Legends\” como wallpaper do smartphone\
 				Criou a conexão do aplicativo com a API do jogo com Glide para baixar as imagens\
@@ -28,7 +30,12 @@ class PersonalProjects extends Component {
 				Aplicativo que ajuda o jogador a escolher a melhor combinação no jogo “League of Legends”\
 				Criou a infraestrutura de votação utilizando instância EC2 (Elastic Computing Cloud) e RDS\
 				(Relational Database Service) \
-				Detalhes da “Play Store”: 4.14 estrelas de 562 avaliações e 832 usuários ativos" }
+				Detalhes da “Play Store”: 4.14 estrelas de 562 avaliações e 832 usuários ativos" },
+			{ title: "Instagram Poster", year: "2019", text: "Desenvolveu um bot para postar fotos automaticamente em uma conta no Instagram. Utilizou AWS lambda para rodar o script e S3 para armazenar as fotos. Consiste em três \
+				módulos: \n\
+				Um módulo para fazer parse dos metadados e buscar autoria da foto\n\
+				Um módulo fazer upload das fotos no S3\n\
+				Um módulo para postar as fotos"}
 
   		],
   			title: "PROJETOS PESSOAIS" };
@@ -42,10 +49,12 @@ class PersonalProjects extends Component {
 					<div class="title">{ this.state.title }</div>
 				</div>
 				<div class="container">
-					<div class="project">
-						<div>{ this.state.entries[0].title }</div>
-						<div><img class="icon" src={ BuildIcon }/></div>
-					</div>
+					<Link to="/personal-projects/build_league/">
+						<div class="project">
+							<div class="hobbie-and-interest-element-title">{ this.state.entries[0].title }</div>
+							<div><img class="icon" src={ BuildIcon }/></div>
+						</div>
+					</Link>
 					<div class="project">
 						<div>{ this.state.entries[1].title }</div>
 						<div><img class="icon" src={ WallpaperIcon }/></div>
@@ -53,6 +62,10 @@ class PersonalProjects extends Component {
 					<div>
 						<div>{ this.state.entries[2].title }</div>
 						<div><img class="icon" src={ CounterIcon }/></div>
+					</div>
+					<div>
+						<div>{ this.state.entries[3].title }</div>
+						<div><img class="icon" src={ InstagramIcon }/></div>
 					</div>
 				</div>
 
