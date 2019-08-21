@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AndroidApp from './android-app';
+import './android-app.css'
 import MainScreenScreenshot from '../../assets/images/league-apps-screenshots/wallpaper-league-screenshots/wallpaper_league_main_screen.png';
 import CharacterWallpaperScreenshot from '../../assets/images/league-apps-screenshots/wallpaper-league-screenshots/wallpaper_league_character_wallpapers.png';
 import CharacterWallpaperEditScreenshot from '../../assets/images/league-apps-screenshots/wallpaper-league-screenshots/wallpaper_league_wallpaper_edit.png';
@@ -19,11 +20,11 @@ class WallpaperLeague extends Component {
 
 	render() {
 		return (
-			<div>
+			<div class="android-app-wrapper">
 				<AndroidApp title = { this.state.title } year = { this.state.year } description = { this.state.description }/>
-				<img src={ MainScreenScreenshot } />
-				<img src={ CharacterWallpaperScreenshot } />
-				<img src={ CharacterWallpaperEditScreenshot } />
+				<img class="app-screenshot" src={ MainScreenScreenshot } />
+				<img class="app-screenshot" src={ CharacterWallpaperScreenshot } />
+				<img class="app-screenshot" src={ CharacterWallpaperEditScreenshot } />
 			</div>
 		);
 	}
