@@ -3,6 +3,14 @@
   background-color: #F0F0F0;
 }
 
+.text-wrapper .text:first-child {
+padding-top: 2rem;
+}
+
+.text-wrapper .text:last-child {
+padding-bottom: 2rem;
+}
+
 .timeline-element {
 
   /* margin: 0 auto; */
@@ -53,15 +61,13 @@
 }
 
 .text {
-  text-align: left;
-  display: inline-block;
+  text-align: justify;
   width: 30rem;
   vertical-align: top;
-  height: 100%;
   color: #444444;
   font:normal normal normal 1rem/1.4em avenir-lt-w01_35-light1475496,sans-serif;
   /*padding-left: 2rem;*/
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 .circle {
