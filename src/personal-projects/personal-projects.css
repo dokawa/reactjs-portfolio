@@ -11,6 +11,8 @@
 	display: flex;
 }
 
-.hobbie-and-interests-item {
-	
+.personal-projects-element-title {
+	text-decoration: none;
+	color: black;
 }
+

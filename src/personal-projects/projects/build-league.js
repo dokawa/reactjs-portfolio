@@ -9,24 +9,26 @@ class BuildLeague extends Component {
 	constructor(props) {
   		super(props);
 
-		this.state = 
-  			{ title: "Build LOL 2019", year: "2016 - 2019", description: "Participou do desenvolvimento do aplicativo Android \“Build LOL 2019\”\
-				Aplicativo que guia os jogadores de “League of Legends” ao apresentar uma escolha padrão de\
-				itens que eles podem comprar para cada personagem do jogo\
-				Detalhes da “Play Store”: 4.66 estrelas de 1862 avaliações e 2673 usuários ativos." };
-	}
+        this.state = 
+        	{ title: "Build League 2019", year: "2016 - 2019", description: "Participou do desenvolvimento do aplicativo Android \“Build League 2019\”\nAplicativo que guia os jogadores de “League of Legends” ao apresentar uma escolha padrão de itens que eles podem comprar para cada personagem do jogo\nDetalhes da “Play Store”: 4.66 estrelas de 1862 avaliações e 2673 usuários ativos."
+        	};     
+        }
 
 	render() {
 		return (
 			<div>
-				<AndroidApp title = { this.state.title } year = { this.state.year } description = { this.state.description }/>
-				<img src={ MainScreenScreenshot } />
-				<img src={ CharacterBuildScreenshotPartOne } />
-				<img src={ CharacterBuildScreenshotPartTwo } />
-				<img src={ CharacterBuildScreenshotPartThree } />
+				<AndroidApp class="android-app-title" title = { this.state.title } year = { this.state.year } description = { this.state.description }/>
+				<div class="android-app-screenshot-wrapper">
+					<img class="android-app-screenshot" src={ MainScreenScreenshot } />
+					<img class="android-app-screenshot" src={ CharacterBuildScreenshotPartOne } />
+					<img class="android-app-screenshot" src={ CharacterBuildScreenshotPartTwo } />
+					<img class="android-app-screenshot" src={ CharacterBuildScreenshotPartThree } />
+				</div>
 			</div>
 		);
 	}
+
+
 }
 
 export default BuildLeague;
