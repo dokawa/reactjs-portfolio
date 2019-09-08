@@ -1,0 +1,35 @@
+.android-app-wrapper {
+	text-align: center;
+	width: 100%;
+
+
+  animation-name: fade-in;
+  animation-duration: 1s;
+}
+
+@keyframes fade-in {
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.android-app-description {
+	width: 70rem;
+	margin: 0 auto;
+}
+
+
+.android-app-screenshot {
+	width: 25rem;
+	height: auto;
+	display: inline-block;
+}
+
+.android-app-screenshot-wrapper {
+
+}
+
+.android-app-text {
+	width: 100%;
+	text-align: left;
+}
+
