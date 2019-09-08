@@ -15,11 +15,9 @@ class CounterLeague extends Component {
 
 	render() {
 		return (
-			<div class="android-app-wrapper">
-				<AndroidApp title = { this.state.title } year = { this.state.year } description = { this.state.description }/>
-				<img class="android-app-screenshot" src={ MainScreenScreenshot } />
-				<img class="android-app-screenshot" src={ CharacterCounterScreenshot } />
-			</div>
+
+				<AndroidApp title = { this.state.title } year = { this.state.year } description = { this.state.description } image_list = { [MainScreenScreenshot, CharacterCounterScreenshot] }/>
+
 		);
 	}
 }

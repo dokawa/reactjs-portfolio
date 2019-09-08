@@ -3,6 +3,11 @@
 	justify-content: center;
 }
 
+.contact-info-icon {
+	width: 2rem;
+	height: 2rem;
+}
+
 .info {
 	width: 10rem;
 }

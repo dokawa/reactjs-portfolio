@@ -4,19 +4,16 @@
 }
 
 .text-wrapper .text:first-child {
-padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 .text-wrapper .text:last-child {
-padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .timeline-element {
-
-  /* margin: 0 auto; */
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 20px 1fr;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -51,9 +48,7 @@ padding-bottom: 2rem;
 .year {
   text-align: right;
   display: inline-block;
-  width: 30rem;
   vertical-align: top;
-  height: 100%;
   color: #444444;
   font:normal normal normal 1rem/1.4em avenir-lt-w01_35-light1475496,sans-serif;
   /*padding-right: 2rem;*/
@@ -82,4 +77,14 @@ padding-bottom: 2rem;
   /*margin: auto 0;*/
 }
 
+/*@media (max-width: 1200px) {
+  .timeline-element {
+    width: auto;
+  }
+  .text {
+    width: 10rem;
+  }
+
+}
+*/
 

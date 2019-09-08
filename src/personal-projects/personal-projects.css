@@ -7,12 +7,16 @@
 	text-align: center;
 }
 
-.container {
+.personal-projects-wrapper {
 	display: flex;
+	justify-content: center;
+}
+
+.personal-projects-wrapper a {
+	text-decoration: none;
 }
 
 .personal-projects-element-title {
-	text-decoration: none;
 	color: black;
 }
 

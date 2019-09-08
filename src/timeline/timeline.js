@@ -22,10 +22,7 @@ class Timeline extends Component {
 		if (!this.props.entries) {
 			return;
 		}
-		return this.props.entries.map(entry => {
-			return <TimelineElement year = { entry.year } text = { entry.text }/>
-		});
-
+		return this.props.entries.map(entry => <TimelineElement year = { entry.year } text = { entry.text }/>);
 	}
 }
 

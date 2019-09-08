@@ -29,7 +29,7 @@ class PersonalProjects extends Component {
 				<div>
 					<div class="title">{ this.state.title }</div>
 				</div>
-				<div class="container">
+				<div class="personal-projects-wrapper">
 					<Link to="/personal-projects/build_league/">
 						<div class="project">
 							<div class="personal-projects-element-title">{ this.state.entries[0].title }</div>
