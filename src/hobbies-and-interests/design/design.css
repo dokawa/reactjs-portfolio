@@ -10,12 +10,11 @@ html {
 
 .contain {
   /*width: 100%;*/
-    padding: 0 10px;
-  margin: 0;
+  padding: 0 10px;
+  margin: 2rem 0rem 2rem;
   background: #0e0f11;
   color: #ecf0f1;
   font-family: 'Open Sans', sans-serif;
-  min-height: 70vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -70,7 +69,7 @@ html {
   left: 50%;
   display: #000;
 }
-.tile__details:after {
+#video:after {
   margin-top: -25px;
   margin-left: -25px;
   width: 50px;
@@ -82,7 +81,7 @@ html {
   background: rgba(0,0,0,0.5);
   z-index: 1;
 }
-.tile__details:before {
+#video:before {
   content: '▶';
   left: 0;
   width: 100%;
@@ -92,6 +91,7 @@ html {
   text-align: center;
   z-index: 2;
 }
+
 .tile:hover .tile__details {
   opacity: 1;
 }
@@ -100,6 +100,9 @@ html {
   bottom: 0;
   padding: 10px;
 }
+
+.tile__onclick {}
+
 .row__inner:hover {
   -webkit-transform: translate3d(-62.5px, 0, 0);
           transform: translate3d(-62.5px, 0, 0);

@@ -1,230 +1,102 @@
 import React, { Component } from 'react';
-
+import VideoPlayer from '../video-player';
+import ImageFrame from '../image-frame'
+import VideosAndThumbnails from '../../assets/videos/index.js';
 import './design.css';
 
 class Design extends Component {
+
+	 constructor (props) {
+	 	super(props)
+	    this.state = {
+	      playingVideo: "",
+	      showingImage: ""
+	    };
+	  }
+
+
+	buildThumbnailElement(imageName) {
+		return (<div className="tile">
+			        <div className="tile__media" >
+			          <img className="tile__img" src= { VideosAndThumbnails[imageName]} alt=""  />
+			        </div>
+			        <div id="video" className="tile__details" onClick={ 
+			        	() => {
+			        		console.log(this.convertThumbnailNameToVideoName(imageName))
+			    			this.setState({ playingVideo: this.convertThumbnailNameToVideoName(imageName) })	
+			    			
+			    		}}>
+			          <div className="tile__title">
+			            { this.convertThumbnailNameToVideoName(imageName) }
+			          </div>
+			        </div>
+			      </div>)
+	}
+	
+	convertThumbnailNameToVideoName(imageName) {
+		return this.upperCaseFirstLetter(imageName.replace("Thumbnail", ""))
+	}
+
+	upperCaseFirstLetter(name) {
+		return name.charAt(0).toUpperCase() + name.slice(1);
+	}
+
+
+	buildVideo() {
+		return (<div>{ <VideoPlayer resetPlayer={ () => this.setState({ playingVideo: "" })} videoName={ this.state.playingVideo }  /> }</div>)
+	}
+
+	buildImageElement(imageName) {
+				return (<div className="tile">
+			        <div className="tile__media" >
+			          <img className="tile__img" src= { VideosAndThumbnails[imageName]} alt=""  />
+			        </div>
+			        <div id="image" className="tile__details" onClick={ 
+			        	() => {
+			        		console.log(this.convertThumbnailNameToVideoName(imageName))
+			    			this.setState({ playingVideo: this.convertThumbnailNameToVideoName(imageName) })	
+			    			
+			    		}}>
+			          <div className="tile__title">
+			            { this.convertThumbnailNameToVideoName(imageName) }
+			          </div>
+			        </div>
+			      </div>)
+	}
+
+
+	buildImage() {
+		return (<div>{ <ImageFrame resetPlayer={ () => this.setState({ showingImage: "" })} imageName={ this.state.showingImage }  /> }</div>)
+	}
+
+
 	render() {
+		if (this.state.playingVideo) {
+			return( this.buildVideo() )
+		}
+		else {
+
 		return(
-			<div class="contain">
+			<div className="contain">
 
-			  <div class="row">
-			    <div class="row__inner">
+			  <div className="row">
+			    <div className="row__inner">
 
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-1.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-2.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-3.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-4.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-5.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-6.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-7.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-8.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-9.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-10.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-11.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-12.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-13.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-14.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-15.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-16.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-17.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-18.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="tile">
-			        <div class="tile__media">
-			          <img class="tile__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/70390/show-19.jpg" alt=""  />
-			        </div>
-			        <div class="tile__details">
-			          <div class="tile__title">
-			            Top Gear
-			          </div>
-			        </div>
-			      </div>
-
+			      { this.buildThumbnailElement("DicedThumbnail") }
+			      { this.buildThumbnailElement("N0ughtThumbnail") }
+				  { this.buildThumbnailElement("SpeakerThumbnail") }
+				  { this.buildImageElement("NeverBeGameOver") }
+				  { this.buildImageElement("N0ughtBf3") }
+			    
 			    </div>
 			  </div>
 
 			</div>
 		)
+		}
 	}
 }
+
+
 
 export default Design;
