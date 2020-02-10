@@ -17,9 +17,15 @@ class Design extends Component {
 
 	buildThumbnailElement(imageName) {
 		return (<div className="tile">
-			        <div className="tile__media" >
-			          <img className="tile__img" src= { VideosAndThumbnails[imageName]} alt=""  />
-			        </div>
+					<div class="tile__element">
+						<div className="play_button">  </div>
+				        <div className="tile__media" >
+				          <img className="tile__img" src= { VideosAndThumbnails[imageName]} alt=""  />
+				        </div>
+				        
+
+				      
+				    </div>
 			        <div id="video" className="tile__details" onClick={ 
 			        	() => {
 			        		console.log(this.convertThumbnailNameToVideoName(imageName))
