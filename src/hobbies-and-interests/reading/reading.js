@@ -14,7 +14,7 @@ class Reading extends Component {
 				<a href="https://www.amazon.com.br/Smarter-Faster-Better-Transformative-Productivity/dp/0812983599">Smarter Faster Better</a>
 				<a href="https://www.amazon.com.br/Power-Myth-Joseph-Campbell/dp/0385418868">The Power of Myth</a>
 				<a href="https://www.amazon.com.br/Algorithms-Live-Computer-Science-Decisions-ebook/dp/B015CKNWJI">Algorithms to Live By</a>
-				<a href="https://www.amazon.com.br/Art-War-Sun-Tzu/dp/0877735379">Art of War</a>
+				<a href="https://www.amazon.com.br/Art-War-Sun-Tzu/dp/0877735379">The Art of War</a>
 				<a href="https://www.amazon.com.br/Book-Five-Rings-Musashi-Miyamoto/dp/1590309847">The Book of Five Rings</a>
 				<a href="https://www.amazon.com.br/PRINCE-Wisehouse-Classics-English-ebook/dp/B019YZVHUI">The Prince</a>
 				<a href="https://www.amazon.com.br/Mindset-Carol-S-Dweck/dp/8547000240">Mindset</a>
