@@ -30,6 +30,10 @@ class Reading extends Component {
 				<a href="https://www.amazon.com.br/Test-Driven-Development-Kent-Beck/dp/0321146530">TDD by Example</a>
 				<a href="https://www.amazon.com.br/Refactoring-Improving-Design-Existing-Code/dp/0134757599">Refactoring</a>
 				<a href="https://www.amazon.com.br/Phoenix-Project-Helping-Business-English-ebook/dp/B078Y98RG8/">The Phoenix Project</a>
+				<a href="https://www.amazon.com.br/Clean-Architecture-Craftsmans-Software-Structure-ebook/dp/B075LRM681/">Clean Architecture</a>
+				<a href="https://www.amazon.com.br/Storytelling-Data-Visualization-Business-Professionals-ebook/dp/B016DHQSM2/">Storytelling with Data</a>
+				<a href="https://www.amazon.com.br/Building-Microservices-Designing-Fine-Grained-Systems-ebook/dp/B00T3N7XB4/">Building Microsservices Designing Fine Grained Systems</a>
+				<a href="https://www.amazon.com.br/Head-First-Statistics-Brain-Friendly-English-ebook/dp/B00B797ELQ/">Head First Statistics</a>
 			</div>
 		)
 	}
