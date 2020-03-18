@@ -38,7 +38,7 @@ class Reading extends Component {
 				<Book book_title= "Storytelling with Data" book_link= "https://www.amazon.com.br/Storytelling-Data-Visualization-Business-Professionals-ebook/dp/B016DHQSM2/"/>
 				<Book book_title= "Building Microsservices Designing Fine Grained Systems" book_link= "https://www.amazon.com.br/Building-Microservices-Designing-Fine-Grained-Systems-ebook/dp/B00T3N7XB4/"/>
 				<Book book_title= "Head First Statistics" book_link= "https://www.amazon.com.br/Head-First-Statistics-Brain-Friendly-English-ebook/dp/B00B797ELQ/"/>
-			
+			</div>
 		)
 	}
 
