@@ -1,20 +1,30 @@
 import React, { Component } from 'react';
-import AndroidApp from './android-app';
-import './android-app.css'
+import 'personal-projects/projects/instagram-poster.css';
 
 class InstagramPoster extends Component {
 	constructor(props) {
   		super(props);
-
-		this.state = 
-			{ title: "InstagramPoster", year: "2019", description: "Participou do desenvolvimento do aplicativo Android \“Counter LOL 2019\”\nAplicativo que ajuda o jogador a escolher a melhor combinação no jogo “League of Legends”\nCriou a infraestrutura de votação utilizando instância EC2 (Elastic Computing Cloud) e RDS\n(Relational Database Service) \nDetalhes da “Play Store”: 4.14 estrelas de 562 avaliações e 832 usuários ativos" };
-
-			}
+  	}
 
 	render() {
 		return (
-			<div class="android-app-wrapper">
-				<AndroidApp title = { this.state.title } year = { this.state.year } description = { this.state.description }/>
+			<div class="project-wrapper">
+				<div class="project-text">A Python project that automates an instagram account. It consists on five modules, scrapper, parser, uploader, poster and interactor</div>
+				<div class="project-subtitle">Scrapper</div>
+				<div class="project-text">An open-source instagram scrapper that downloads the images and the metadata of an Instagram account</div>
+				<div class="project-subtitle">Parser</div>
+				<div class="project-text">Parses the image metadata to get the credit of image and saves the image id and the author in a json. Images that doesn't have credit are filtered out</div>
+				<div class="project-subtitle">Uploader</div>
+				<div class="project-text">Uploads images to s3</div>
+				<div class="project-subtitle">Poster</div>
+				<div class="project-text">Posts a randomly selected image into the account, keeps track of posted images and choose an image caption
+				It runs as a scheduled event on AWS lambda with randomization of time to add a human factor, then it downloads the random selected image from S3 and uploads into the account with 
+				a caption randomly selected from a pre-made list
+				It works interacting with Instagram private API</div>
+				<div class="project-subtitle">Interactor</div>
+				<div class="project-text">An open-source bot based on Selenium that like, follow and comment. It was configured to interact with travel accounts
+				Result: 948 followers in 5 months decomissioned when instagram deprecated their private API
+				Average of 50 likes per post 3 posts per day</div>
 			</div>
 		);
 	}

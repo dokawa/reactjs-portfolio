@@ -1,5 +1,5 @@
-.android-app-wrapper {
-
+.project-wrapper {
+	display: flex-box;
 	text-align: center;
 	width: 100%;
 	animation-name: fade-in;
@@ -7,22 +7,22 @@
 }
 
 @keyframes fade-in {
-    0%   {opacity: 0;}
-    100% {opacity: 1;}
+	0%   {opacity: 0;}
+	100% {opacity: 1;}
 }
 
-.android-app-description {
+.project-description {
 	width: 70rem;
 	margin: 0 auto;
 }
 
-.android-app-screenshot {
-	width: 25rem;
-	height: auto;
-	display: inline-block;
+.project-subtitle {
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
 }
 
-.android-app-text {
+.project-text {
 	width: 100%;
 	text-align: left;
 	font-size: 20px;

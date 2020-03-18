@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Timeline from '../timeline/timeline';
-import BuildIcon from '../assets/images/build - 512 x 512.png';
-import WallpaperIcon from '../assets/images/wallpaper - 512 x 512.png';
-import CounterIcon from '../assets/images/counter - 512 x 512.png';
-import InstagramIcon from '../assets/images/instagram.png';
-import BuildLeague from './projects/build-league'
-import './personal-projects.css'
+import Timeline from 'timeline/timeline';
+import BuildIcon from 'assets/images/build - 512 x 512.png';
+import WallpaperIcon from 'assets/images/wallpaper - 512 x 512.png';
+import CounterIcon from 'assets/images/counter - 512 x 512.png';
+import InstagramIcon from 'assets/images/instagram.png';
+import BuildLeague from 'personal-projects/projects/build-league'
+import 'personal-projects/personal-projects.css'
 
 
 class PersonalProjects extends Component {

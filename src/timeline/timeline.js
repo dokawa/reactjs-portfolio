@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import TimelineElement from './timeline-element/timeline-element'
-import './timeline.css';
+import TimelineElement from 'timeline/timeline-element/timeline-element'
+import 'timeline/timeline.css';
 
 class Timeline extends Component {
 	render() {

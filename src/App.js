@@ -16,10 +16,10 @@ import Reading from './hobbies-and-interests/reading/reading';
 import Investing from './hobbies-and-interests/investing/investing';
 import Karate from './hobbies-and-interests/karate/karate';
 import BuildLeague from './personal-projects/projects/build-league'
-import WallpaperLeague from './personal-projects/projects/wallpaper-league'
-import CounterLeague from './personal-projects/projects/counter-league'
-import InstagramPoster from './personal-projects/projects/instagram-poster'
-import KnowledgeAndSkills from './knowledge-and-skills/knowledge-and-skills'
+import WallpaperLeague from 'personal-projects/projects/wallpaper-league'
+import CounterLeague from 'personal-projects/projects/counter-league'
+import InstagramPoster from 'personal-projects/projects/instagram-poster'
+import KnowledgeAndSkills from 'knowledge-and-skills/knowledge-and-skills'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 

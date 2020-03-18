@@ -6,13 +6,9 @@
 }
 
 .nav {
-
-    /*background: green;*/
     justify-content: center;
 	display: flex;
 	margin-bottom: 10rem;
-/*    	margin-left: auto;
-    margin-right: auto;*/
 }
 
 .picture {
@@ -21,8 +17,6 @@
 	width: 18vw;
 	border: 1rem solid #FFFFFF;
 	position: absolute;
-	/*# center image*/
-	/*display: block;*/
     transform: translateY(-50%);
 }
 

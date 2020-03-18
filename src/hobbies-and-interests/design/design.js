@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import VideoPlayer from '../video-player';
-import ImageFrame from '../image-frame'
-import VideosAndThumbnails from '../../assets/videos/index.js';
-import './design.css';
+import VideoPlayer from 'hobbies-and-interests/video-player';
+import ImageFrame from 'hobbies-and-interests/image-frame'
+import VideosAndThumbnails from 'assets/videos/index.js';
+import 'hobbies-and-interests/design/design.css';
 
 class Design extends Component {
 
@@ -12,7 +12,7 @@ class Design extends Component {
 	      playingVideo: "",
 	      showingImage: ""
 	    };
-	  }
+	 }
 
 
 	buildThumbnailElement(imageName) {
@@ -77,8 +77,6 @@ class Design extends Component {
 	buildVideo() {
 		return (<div>{ <VideoPlayer resetPlayer={ () => this.setState({ playingVideo: "" })} videoName={ this.state.playingVideo }  /> }</div>)
 	}
-
-
 
 
 	buildImage() {
