@@ -5,7 +5,7 @@ class Karate extends Component {
 		return (
 			<div>
 				<div class="nav">
-					
+					<img src= "assets/images/shotokan.png" />
 	        	</div>
 			</div>
 		)
