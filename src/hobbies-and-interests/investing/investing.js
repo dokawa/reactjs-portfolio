@@ -5,10 +5,11 @@ import './investing.css';
 class Investing extends Component {
 	render() {
 		return (
-			<div>
-				<div><a href="https://www.easynvest.com.br/">Easynvest</a></div>
-				<div><a href="https://www.clear.com.br/site">Clear</a></div>
-				<div><a href="https://www.binance.com/?ref=11130872">Binance</a></div>
+			<div class='investing-container'>
+				<div><a href="https://www.easynvest.com.br/"><img class="logo-icon" src= { require('assets/images/hobbies-and-interests/investing/easynvest-logo.svg') } /></a></div>
+				<div><a href="https://www.clear.com.br/site"><img class="logo-icon" src= { require('assets/images/hobbies-and-interests/investing/clear-logo.png') } /></a></div>
+				<div><a href="https://www.clear.com.br/site"><img class="logo-icon" src= { require('assets/images/hobbies-and-interests/investing/rico-logo.png') } /></a></div>
+				<div><a href="https://www.binance.com/?ref=11130872"><img class="logo-icon" src= { require('assets/images/hobbies-and-interests/investing/binance-logo.png') } /></a></div>
 			</div>
 		)
 	}
