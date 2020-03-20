@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import 'hobbies-and-interests/reading/reading.css';
+import 'hobbies-and-interests/reading/book.css';
 
 class Book extends Component {
 	convert_title_to_cover_name(title) {
@@ -36,7 +36,7 @@ class Book extends Component {
 		return(
 			<div class="contain">
 				<a href={ this.props.book_link }>
-					<img src={ this.get_path(this.props.book_title) } />
+					<img class="book_cover" src={ this.get_path(this.props.book_title) } />
 				</a>
 			</div>
 		)
