@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Timeline from '../timeline/timeline'
+import Timeline from 'timeline/timeline'
 
 class Experience extends Component {
 	constructor(props) {
@@ -11,7 +11,7 @@ class Experience extends Component {
 	    	{ year: "2017", text: "Desenvolvimento de aplicação Apache Spark para identificar locais mais visitados utilizando dados de localização de aplicativo \n Desenvolvimento de aplicação Apache Spark utilizando API em java para clusterizar lugares mais visitados"  },
 			{ year: "2016", text: "Participação no desenvolvimento de aplicativo Android de detecção de atividades (andando, correndo, parado, transporte, metrô, aeronave) utilizando sensores do celular (acelerômetro, proximidade, GPS) \nDesenvolvimento de bibliotecas java para a aplicação como módulo para identificação da casa e locais mais visitados, utilizando apenas dados de GPS e localização por Wi-fi" }
   			],
-  			title: "EXPERIÊNCIA",
+  			title: "EXPERIENCE",
   			subtitle: "Scopus Soluções em TI LTDA"
   		};
   	}
