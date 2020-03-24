@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
 import SVG from 'react-inlinesvg'
 import './knowledge-and-skills.css'
-import AfterEffects from '../assets/images/knowledge-and-skills/after_effects.png';
-import PremierePro from '../assets/images/knowledge-and-skills/premiere_pro.png';
-import Photoshop from '../assets/images/knowledge-and-skills/photoshop.png';
-import Python from '../assets/images/knowledge-and-skills/python.png';
-import Java from '../assets/images/knowledge-and-skills/java.png';
-import Kubernetes from '../assets/images/knowledge-and-skills/kubernetes.png';
-import ELKStack from '../assets/images/knowledge-and-skills/elk.png';
-import Terraform from '../assets/images/knowledge-and-skills/terraform.png';
-import Git from '../assets/images/knowledge-and-skills/git.png';
-import Grafana from '../assets/images/knowledge-and-skills/grafana.png';
-import Prometheus from '../assets/images/knowledge-and-skills/prometheus.png';
-import Flink from '../assets/images/knowledge-and-skills/flink.png';
-import Kafka from '../assets/images/knowledge-and-skills/kafka.png';
-import Istio from '../assets/images/knowledge-and-skills/istio.png';
-import Spark from '../assets/images/knowledge-and-skills/spark.png';
-import GitlabCI from '../assets/images/knowledge-and-skills/gitlab.png';
-import Android from '../assets/images/knowledge-and-skills/android.png';
-import Docker from '../assets/images/knowledge-and-skills/docker.png';
-import Ansible from '../assets/images/knowledge-and-skills/ansible.png';
-import AWS from '../assets/images/knowledge-and-skills/aws.png';
+import AfterEffects from 'assets/images/knowledge-and-skills/after_effects.png';
+import PremierePro from 'assets/images/knowledge-and-skills/premiere_pro.png';
+import Photoshop from 'assets/images/knowledge-and-skills/photoshop.png';
+import Python from 'assets/images/knowledge-and-skills/python.png';
+import Java from 'assets/images/knowledge-and-skills/java.png';
+import Kubernetes from 'assets/images/knowledge-and-skills/kubernetes.png';
+import ELKStack from 'assets/images/knowledge-and-skills/elk.png';
+import Terraform from 'assets/images/knowledge-and-skills/terraform.png';
+import Git from 'assets/images/knowledge-and-skills/git.png';
+import Grafana from 'assets/images/knowledge-and-skills/grafana.png';
+import Prometheus from 'assets/images/knowledge-and-skills/prometheus.png';
+import Flink from 'assets/images/knowledge-and-skills/flink.png';
+import Kafka from 'assets/images/knowledge-and-skills/kafka.png';
+import Istio from 'assets/images/knowledge-and-skills/istio.png';
+import Spark from 'assets/images/knowledge-and-skills/spark.png';
+import Jenkins from 'assets/images/knowledge-and-skills/jenkins.png';
+import Gitlab from 'assets/images/knowledge-and-skills/gitlab.png';
+import Android from 'assets/images/knowledge-and-skills/android.png';
+import Docker from 'assets/images/knowledge-and-skills/docker.png';
+import Ansible from 'assets/images/knowledge-and-skills/ansible.png';
+import AWS from 'assets/images/knowledge-and-skills/aws.png';
 
 
 class KnowledgeAndSkills extends Component {
@@ -31,7 +32,8 @@ class KnowledgeAndSkills extends Component {
 				{ this.buildKnowledgeAndSkillsGroup('Nuvem', [AWS]) }
 				{ this.buildKnowledgeAndSkillsGroup('Orchestração de containeres', [Kubernetes, Docker])}
 				{ this.buildKnowledgeAndSkillsGroup('Monitoração', [Istio, Grafana, Prometheus, ELKStack])}
-				{ this.buildKnowledgeAndSkillsGroup('DevOps', [GitlabCI, Git])}
+				{ this.buildKnowledgeAndSkillsGroup('Code repo', [Git])}
+				{ this.buildKnowledgeAndSkillsGroup('CI/CD', [Jenkins, Gitlab])}
 				{ this.buildKnowledgeAndSkillsGroup('Processamento de Eventos', [Flink, Kafka])}
 				{ this.buildKnowledgeAndSkillsGroup('Processamento distribuído', [Spark])}
 				{ this.buildKnowledgeAndSkillsGroup('Linguagens de Programação', [Python, Java])}
