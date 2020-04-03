@@ -1,7 +1,16 @@
 .investing-container {
 	text-align: center;
+	align-content: center;
+	width: 100%;
+}
+
+.investing-description {
+	width: 50rem;
+	margin: 0 auto;
+	text-align: left;
 }
 
 .logo-icon {
 	height: 100px;
+	margin: 5rem;
 }

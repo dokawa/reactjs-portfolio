@@ -34,7 +34,7 @@ class Book extends Component {
 
 	render() {
 		return(
-			<div class="contain">
+			<div class="book-container">
 				<a href={ this.props.book_link }>
 					<img class="book_cover" src={ this.get_path(this.props.book_title) } />
 				</a>

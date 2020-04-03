@@ -7,7 +7,7 @@ class Reading extends Component {
 
 	render() {
 		return(
-			<div class="contain">
+			<div class="reading-container">
 				{ [
 					{ book_title: "Clean Code", book_link: "Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM" },
 					{ book_title: "Clean Architecture", book_link: "Clean-Architecture-Craftsmans-Software-Structure-ebook/dp/B075LRM681/" },

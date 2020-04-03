@@ -8,7 +8,7 @@ class AndroidApp extends Component{
 	render() {
 		return (
 			<div class="android-app-wrapper">
-				<div class="android-app-title"><h1>{ this.props.title }</h1></div>
+				<div class="android-app-title">{ this.props.title }</div>
 				<div class="android-app-description"> { this.buildTextFromLinebreaker(this.props.description) } </div>
 				{ this.buildAndroidAppElement(this.props.image_list) }
 				{ this.props.year }

@@ -1,7 +1,6 @@
 body,
 html {
 
-  /*width: 100%;*/
 }
 /* * {
   box-sizing: border-box;
@@ -21,7 +20,9 @@ html {
 }
 .row {
   overflow: scroll;
-  width: 100%;
+  /*width: 100%;*/
+  width: 70rem;
+  margin: 0px auto;
 }
 .row__inner {
   transition: 450ms -webkit-transform;

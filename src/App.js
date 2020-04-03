@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Header from './header/header';
-import Timeline from './timeline/timeline';
-import Background from './background/background';
-import ContactInfo from './contact-info/contact-info';
-import PersonalInfo from './personal-info/personal-info';
-import Experience from './experience/experience';
-import PersonalProjects from './personal-projects/personal-projects';
-import HobbiesAndInterests from './hobbies-and-interests/hobbies-and-interests';
-import Education from './education/education';
-import Footer from './footer/footer';
-import Design from './hobbies-and-interests/design/design';
-import Reading from './hobbies-and-interests/reading/reading';
-import Investing from './hobbies-and-interests/investing/investing';
-import Karate from './hobbies-and-interests/karate/karate';
-import BuildLeague from './personal-projects/projects/build-league'
+import logo from 'logo.svg';
+import 'App.css';
+import Header from 'header/header';
+import Timeline from 'timeline/timeline';
+import Background from 'background/background';
+import ContactInfo from 'contact-info/contact-info';
+import PersonalInfo from 'personal-info/personal-info';
+import Experience from 'experience/experience';
+import PersonalProjects from 'personal-projects/personal-projects';
+import HobbiesAndInterests from 'hobbies-and-interests/hobbies-and-interests';
+import Education from 'education/education';
+import Footer from 'footer/footer';
+import Design from 'hobbies-and-interests/design/design';
+import Reading from 'hobbies-and-interests/reading/reading';
+import Investing from 'hobbies-and-interests/investing/investing';
+import Karate from 'hobbies-and-interests/karate/karate';
+import BuildLeague from 'personal-projects/projects/build-league'
 import WallpaperLeague from 'personal-projects/projects/wallpaper-league'
 import CounterLeague from 'personal-projects/projects/counter-league'
 import InstagramPoster from 'personal-projects/projects/instagram-poster'
@@ -32,7 +32,6 @@ class App extends Component {
     return (
     <div>
       <Background/>
-
       <Router>
         <Header></Header>
         <div>

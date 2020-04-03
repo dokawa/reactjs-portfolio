@@ -11,6 +11,11 @@
     100% {opacity: 1;}
 }
 
+.android-app-title {
+	font-weight: bold;
+	font-size: 2em;
+}
+
 .android-app-description {
 	width: 70rem;
 	margin: 0 auto;

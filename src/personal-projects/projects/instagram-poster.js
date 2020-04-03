@@ -9,7 +9,7 @@ class InstagramPoster extends Component {
 	render() {
 		return (
 			<div class="project-wrapper">
-				<div class="procect-title">Instagram Poster</div>
+				<div class="project-title">Instagram Poster</div>
 				<div class="project-description">A Python project that automates an instagram account. It consists on five modules, scrapper, parser, uploader, poster and interactor</div>
 				<div class="project-subtitle">Scrapper</div>
 				<div class="project-description">An open-source instagram scrapper that downloads the images and the metadata of an Instagram account</div>
