@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Instagram from 'assets/images/instagram.jpeg';
 import 'personal-projects/projects/instagram-poster.css';
 
 class InstagramPoster extends Component {
@@ -10,7 +11,11 @@ class InstagramPoster extends Component {
 		return (
 			<div class="project-wrapper">
 				<div class="project-title">Instagram Poster</div>
-				<div class="project-description">A Python project that automates an instagram account. It consists on five modules, scrapper, parser, uploader, poster and interactor</div>
+				<div>A Python project that automates an instagram account.</div>
+				<div>948 followers in 5 months decomissioned when instagram deprecated their private API</div>
+				<div>Average of 60 likes per post 3 posts per day</div>
+				<img class="instagram-screenshot" src= { Instagram } />
+				<div class="project-description">It consists on five modules, scrapper, parser, uploader, poster and interactor</div>
 				<div class="project-subtitle">Scrapper</div>
 				<div class="project-description">An open-source instagram scrapper that downloads the images and the metadata of an Instagram account</div>
 				<div class="project-subtitle">Parser</div>
@@ -23,9 +28,7 @@ class InstagramPoster extends Component {
 				a caption randomly selected from a pre-made list
 				It works interacting with Instagram private API</div>
 				<div class="project-subtitle">Interactor</div>
-				<div class="project-description">An open-source bot based on Selenium that like, follow and comment. It was configured to interact with travel accounts
-				Result: 948 followers in 5 months decomissioned when instagram deprecated their private API
-				Average of 50 likes per post 3 posts per day</div>
+				<div class="project-description">An open-source bot based on Selenium that like, follow and comment. It was configured to interact with travel accounts</div>
 			</div>
 		);
 	}

@@ -1,7 +1,5 @@
 .project-wrapper {
-
 	text-align: center;
-	width: 100%;
 	animation-name: fade-in;
 	animation-duration: 1s;
 }
@@ -12,21 +10,27 @@
 }
 
 .project-title {
-	font-size: 2em;
+	font-size: 2rem;
 	font-weight: bold;
 }
 
 .project-description {
 	width: 70rem;
-	margin: 2rem auto;
+	margin: auto;
 	text-align: left;
 }
 
 .project-subtitle {
 	justify-content: center;
 	align-items: center;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	font-weight: bold;
+}
+
+.instagram-screenshot {
+	width: 25rem;
+	height: auto;
+	display: inline-block;
 }
 
 
