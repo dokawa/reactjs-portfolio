@@ -16,7 +16,7 @@ class WallpaperLeague extends Component {
 
 	render() {
 		return (
-			<AndroidApp title = { this.state.title } year = { this.state.year } description = { this.state.description } image_list = { [MainScreenScreenshot, CharacterWallpaperScreenshot, CharacterWallpaperEditScreenshot] }/>
+			<AndroidApp title = { this.state.title } year = { this.state.year } description = { this.state.description } image_list = { [MainScreenScreenshot, CharacterWallpaperScreenshot, CharacterWallpaperEditScreenshot] } rating = { 4.6 } />
 		);
 	}
 }

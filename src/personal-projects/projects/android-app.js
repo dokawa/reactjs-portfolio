@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import 'personal-projects/projects/android-app.css';
+import star_full from 'assets/images/star_full.png';
+import star_0_1 from 'assets/images/star_0_1.png';
+import star_0_6 from 'assets/images/star_0_6.png';
+import star_0_7 from 'assets/images/star_0_7.png';
 
 class AndroidApp extends Component{
 	constructor(props) {
@@ -12,9 +16,41 @@ class AndroidApp extends Component{
 				<div class="android-app-description"> { this.buildTextFromLinebreaker(this.props.description) } </div>
 				{ this.buildAndroidAppElement(this.props.image_list) }
 				{ this.props.year }
+				{ this.renderStars(this.props.rating) }
 			</div>
 		);
 	}
+
+
+	renderStars(rating) {
+		let i;
+		let stars = [];
+		for (i = 0; i < Math.floor(rating); i++) {
+			stars[i] = <div><img src= { star_full } /></div>;
+		}
+		let last_star = this.getLastStar(rating);
+		stars.push(last_star);
+		return(stars);
+	}
+
+	getLastStar(rating) {
+		let rest = (rating - Math.floor(rating)).toFixed(1);
+		console.log(Math.floor(rating));
+		console.log(rest);
+		if (rest == 0.1) {
+			return(<div><img src= { star_0_1 } /></div>);
+		}
+		else if (rest == 0.6) {
+			return(<div><img src= { star_0_6 } /></div>);
+		}
+		else if (rest == 0.7) {
+			return(<div><img src= { star_0_7 } /></div>);
+		}
+		else {
+			throw("Rating value not defined");
+		}
+	}
+
 
 	buildTextFromLinebreaker = (text) => {
 		const splittedText = text.split('\n');
