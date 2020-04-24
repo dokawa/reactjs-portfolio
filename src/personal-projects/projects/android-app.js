@@ -4,6 +4,7 @@ import star_full from 'assets/images/star_full.png';
 import star_0_1 from 'assets/images/star_0_1.png';
 import star_0_6 from 'assets/images/star_0_6.png';
 import star_0_7 from 'assets/images/star_0_7.png';
+import user_icon from 'assets/images/user_icon.png';
 
 class AndroidApp extends Component{
 	constructor(props) {
@@ -13,10 +14,15 @@ class AndroidApp extends Component{
 		return (
 			<div class="android-app-wrapper">
 				<div class="android-app-title">{ this.props.title }</div>
+				<div class="rating">
+					{ this.renderStars(this.props.rating_info[0]) }
+					<div> { this.props.rating_info[2] } <img src= { user_icon }/> </div>
+				</div>
+				<div class="android-app-description"> Detalhes da “Play Store”: { this.props.rating_info[0] } estrelas de { this.props.rating_info[1] } avaliações e { this.props.rating_info[2] } usuários ativos - Dados de 01/2019 – descomissionado desde então </div>
 				<div class="android-app-description"> { this.buildTextFromLinebreaker(this.props.description) } </div>
 				{ this.buildAndroidAppElement(this.props.image_list) }
 				{ this.props.year }
-				{ this.renderStars(this.props.rating) }
+
 			</div>
 		);
 	}

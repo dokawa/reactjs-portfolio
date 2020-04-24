@@ -17,7 +17,7 @@ class BuildLeague extends Component {
 	render() {
 		return (
 			<AndroidApp class="android-app-title" title = { this.state.title } year = { this.state.year } description = { this.state.description } 
-			image_list = { [MainScreenScreenshot, CharacterBuildScreenshotPartOne, CharacterBuildScreenshotPartTwo, CharacterBuildScreenshotPartThree] } rating = { 4.66 } />
+			image_list = { [MainScreenScreenshot, CharacterBuildScreenshotPartOne, CharacterBuildScreenshotPartTwo, CharacterBuildScreenshotPartThree] } rating_info = { [4.7, 1862, 2673] } />
 		);
 	}
 

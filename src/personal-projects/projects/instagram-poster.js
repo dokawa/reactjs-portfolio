@@ -11,24 +11,19 @@ class InstagramPoster extends Component {
 		return (
 			<div class="project-wrapper">
 				<div class="project-title">Instagram Poster</div>
-				<div>A Python project that automates an instagram account.</div>
-				<div>948 followers in 5 months decomissioned when instagram deprecated their private API</div>
+				<div>A Python project that automates an instagram account by posting images and interacting with users</div>
+				<div>948 followers in 5 months decomissioned when instagram declared the war on bots</div>
 				<div>Average of 60 likes per post 3 posts per day</div>
 				<img class="instagram-screenshot" src= { Instagram } />
 				<div class="project-description">It consists on five modules, scrapper, parser, uploader, poster and interactor</div>
-				<div class="project-subtitle">Scrapper</div>
-				<div class="project-description">An open-source instagram scrapper that downloads the images and the metadata of an Instagram account</div>
-				<div class="project-subtitle">Parser</div>
-				<div class="project-description">Parses the image metadata to get the credit of image and saves the image id and the author in a json. Images that doesn't have credit are filtered out</div>
-				<div class="project-subtitle">Uploader</div>
-				<div class="project-description">Uploads images to s3</div>
-				<div class="project-subtitle">Poster</div>
-				<div class="project-description">Posts a randomly selected image into the account, keeps track of posted images and choose an image caption
+				<div class="project-description"><b>Scrapper: </b>An open-source instagram scrapper that downloads the images and the metadata (comments, followers, number of likes, etc) of a given Instagram account</div>
+				<div class="project-description"><b>Parser: </b>Parses the image metadata to get the credit of image and saves the image id and the author in a json. Images that doesn't have credit are filtered out to prevent problems.</div>
+				<div class="project-description"><b>Uploader: </b>Uses the S3 API to upload images to AWS S3</div>
+				<div class="project-description"><b>Poster: </b>Posts a randomly selected image into the account, keeps track of posted images and choose an image caption
 				It runs as a scheduled event on AWS lambda with randomization of time to add a human factor, then it downloads the random selected image from S3 and uploads into the account with 
 				a caption randomly selected from a pre-made list
 				It works interacting with Instagram private API</div>
-				<div class="project-subtitle">Interactor</div>
-				<div class="project-description">An open-source bot based on Selenium that like, follow and comment. It was configured to interact with travel accounts</div>
+				<div class="project-description"><b>Interactor: </b>An open-source bot based on Selenium that like, follow and comment. It was configured to interact with travel accounts. I started to refactor the code after reading Refactoring by Martin Fowler, Clean Code by Uncle Bob, and TDD by Kent Beck, but Instagram made bots useless and so the code.</div>
 			</div>
 		);
 	}

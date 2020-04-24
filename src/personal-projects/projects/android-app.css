@@ -13,7 +13,7 @@
 
 .android-app-title {
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 .android-app-description {
@@ -34,3 +34,9 @@
 	margin: 1rem;
 }
 
+.rating {
+	display: flex;
+	flex-direction: row;
+	max-width: 70rem;
+	margin: auto;
+}
