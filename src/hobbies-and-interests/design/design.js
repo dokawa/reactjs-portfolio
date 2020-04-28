@@ -14,6 +14,34 @@ class Design extends Component {
 	    };
 	 }
 
+	render() {
+		if (this.state.playingVideo) {
+			return( this.buildVideo() )
+		}
+		else if (this.state.showingImage) {
+			return( this.buildImage() )
+		}
+		else {
+			return(
+				<div className="contain">
+
+				  <div className="row">
+				    <div className="row__inner">
+
+				      { this.buildThumbnailElement("DicedThumbnail") }
+				      { this.buildThumbnailElement("N0ughtThumbnail") }
+					  { this.buildThumbnailElement("SpeakerThumbnail") }
+					  { this.buildImageElement("NeverBeGameOver") }
+					  { this.buildImageElement("N0ughtBf3") }
+				    
+				    </div>
+				  </div>
+
+				</div>
+			)
+		}
+	}
+
 
 	buildThumbnailElement(imageName) {
 		return (<div className="tile">
@@ -46,10 +74,11 @@ class Design extends Component {
 					<div class="tile__element" onClick={ 
 			        	() => {
 			        		console.log(this.convertThumbnailNameToVideoName(imageName))
-			    			this.setState({ playingVideo: this.convertThumbnailNameToVideoName(imageName) })	
+			    			this.setState({ showingImage: imageName })	
 			    			
 			    		}}>
 						<div className="play_button">
+							{ /* A null svg to fill out space equals to play button */ }
 							<svg version="1.1" id="play" x="0px" y="0px" height="60px" width="60spx" viewBox="0 0 100 100">
 							</svg>
 						</div>
@@ -84,31 +113,7 @@ class Design extends Component {
 	}
 
 
-	render() {
-		if (this.state.playingVideo) {
-			return( this.buildVideo() )
-		}
-		else {
 
-		return(
-			<div className="contain">
-
-			  <div className="row">
-			    <div className="row__inner">
-
-			      { this.buildThumbnailElement("DicedThumbnail") }
-			      { this.buildThumbnailElement("N0ughtThumbnail") }
-				  { this.buildThumbnailElement("SpeakerThumbnail") }
-				  { this.buildImageElement("NeverBeGameOver") }
-				  { this.buildImageElement("N0ughtBf3") }
-			    
-			    </div>
-			  </div>
-
-			</div>
-		)
-		}
-	}
 }
 
 

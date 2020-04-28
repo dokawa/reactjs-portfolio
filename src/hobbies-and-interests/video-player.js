@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 
-import VideosAndThumbnails from '../assets/videos/index.js';
-import './video-player.css';
+import VideosAndThumbnails from 'assets/videos/index.js';
+import 'hobbies-and-interests/video-player.css';
 
 
 class VideoPlayer extends Component {
