@@ -14,17 +14,10 @@
 	font-weight: bold;
 }
 
-.project-description {
-	width: 70rem;
-	margin: auto;
+.project-text {
+	max-width: 50rem;
+	margin: 0.5rem auto;
 	text-align: left;
-}
-
-.project-subtitle {
-	justify-content: center;
-	align-items: center;
-	font-size: 1.5rem;
-	font-weight: bold;
 }
 
 .instagram-screenshot {

@@ -17,7 +17,7 @@ class PersonalProjects extends Component {
   			{ title: "Build LOL 2019" },
 	    	{ title: "Wallpaper LOL 2019" },
   			{ title: "Counter LOL 2019" },
-			{ title: "Instagram Poster"}
+			{ title: "Instagram Bot"}
   		],
   			title: "PROJETOS PESSOAIS" };
   	}

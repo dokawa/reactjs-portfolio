@@ -8,13 +8,13 @@ class CounterLeague extends Component {
   		super(props);
 
 		this.state = 
-			{ title: "Counter League 2019", year: "2016 - 2019", description: "Participou do desenvolvimento do aplicativo Android \“Counter League 2019\”\nAplicativo que ajuda o jogador a escolher a melhor combinação no jogo “League of Legends”\Criou a infraestrutura de votação utilizando instância EC2 (Elastic Computing Cloud) e RDS\
+			{ title: "Counter League 2019", year: "2016 - 2019", description: "Aplicativo que ajuda o jogador a escolher a melhor combinação no jogo “League of Legends”\Criou a infraestrutura de votação utilizando instância EC2 (Elastic Computing Cloud) e RDS\
 				(Relational Database Service) \n" };
 		}
 
 	render() {
 		return (
-				<AndroidApp title = { this.state.title } year = { this.state.year } description = { this.state.description } image_list = { [MainScreenScreenshot, CharacterCounterScreenshot] } rating_info = { [4.1, 562, 832] } />
+				<AndroidApp title = { this.state.title } year = { this.state.year } description = { this.state.description } image_list = { [MainScreenScreenshot, CharacterCounterScreenshot] } rating_info = { [4.1, 562, 832, 50000] } />
 		);
 	}
 }
