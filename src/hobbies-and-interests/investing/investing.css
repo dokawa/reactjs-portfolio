@@ -4,6 +4,17 @@
 	width: 100%;
 }
 
+.investing-title {
+	text-align: center;
+	border-style: solid;
+	width: fit-content;
+	margin: 3rem;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 3rem auto;
+	padding: .2rem;
+}
+
 .investing-description {
 	width: 50rem;
 	margin: 0 auto;

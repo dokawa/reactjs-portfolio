@@ -19,7 +19,7 @@ class PersonalProjects extends Component {
   			{ title: "Counter LOL 2019" },
 			{ title: "Instagram Bot"}
   		],
-  			title: "PROJETOS PESSOAIS" };
+  			title: "PERSONAL PROJECTS" };
   	}
 
 

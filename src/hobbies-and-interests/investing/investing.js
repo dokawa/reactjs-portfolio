@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './investing.css';
+import 'hobbies-and-interests/investing/investing.css';
 
 
 class Investing extends Component {
 	render() {
 		return (
-			<div class='investing-container'>
-
+			<div class="investing-container">
+				<div class="investing-title">INVESTING</div>
 				<div><a href="https://www.easynvest.com.br/"><img class="logo-icon" src= { require('assets/images/hobbies-and-interests/investing/easynvest-logo.png') } /></a></div>
 				<div class="investing-description">This broker has no custody fees for Treasure bonds and Certificate of Deposit (CD), also their CDs have better interest rates. I try to keep 22% of my portfolio</div>
 				<div><a href="https://www.clear.com.br/site"><img class="logo-icon" src= { require('assets/images/hobbies-and-interests/investing/clear-logo.png') } /></a></div>

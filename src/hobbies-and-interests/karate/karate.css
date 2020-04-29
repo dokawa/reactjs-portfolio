@@ -1,4 +1,20 @@
 .karate-graph {
-	width: 40%;
-	margin: 2em;
+	margin: 2em auto;
+	width: 100%;
+}
+
+.karate-title {
+	text-align: center;
+	border-style: solid;
+	width: fit-content;
+	margin: 3rem;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 3rem auto;
+	padding: .2rem;
+}
+
+.karate-image {
+	margin: auto;
+	width: 50rem;
 }

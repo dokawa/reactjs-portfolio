@@ -23,20 +23,22 @@ class Design extends Component {
 		}
 		else {
 			return(
-				<div className="contain">
+				<div>
+				    <div className= "design-title">DESIGN</div>
+					<div className="contain">
+					  <div className="row">
+					    <div className="row__inner">
 
-				  <div className="row">
-				    <div className="row__inner">
+					      { this.buildThumbnailElement("DicedThumbnail") }
+					      { this.buildThumbnailElement("N0ughtThumbnail") }
+						  { this.buildThumbnailElement("SpeakerThumbnail") }
+						  { this.buildImageElement("NeverBeGameOver") }
+						  { this.buildImageElement("N0ughtBf3") }
+					    
+					    </div>
+					  </div>
 
-				      { this.buildThumbnailElement("DicedThumbnail") }
-				      { this.buildThumbnailElement("N0ughtThumbnail") }
-					  { this.buildThumbnailElement("SpeakerThumbnail") }
-					  { this.buildImageElement("NeverBeGameOver") }
-					  { this.buildImageElement("N0ughtBf3") }
-				    
-				    </div>
-				  </div>
-
+					</div>
 				</div>
 			)
 		}

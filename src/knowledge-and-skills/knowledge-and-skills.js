@@ -29,14 +29,14 @@ class KnowledgeAndSkills extends Component {
 		return(
 			<div class="knowledge-and-skills-wrapper">
 				{ this.buildKnowledgeAndSkillsGroup('Infraestructure as Code', [Terraform, Ansible]) }
-				{ this.buildKnowledgeAndSkillsGroup('Nuvem', [AWS]) }
-				{ this.buildKnowledgeAndSkillsGroup('Orchestração de containeres', [Kubernetes, Docker])}
-				{ this.buildKnowledgeAndSkillsGroup('Monitoração', [Istio, Grafana, Prometheus, ELKStack])}
+				{ this.buildKnowledgeAndSkillsGroup('Cloud', [AWS]) }
+				{ this.buildKnowledgeAndSkillsGroup('Container Orchestration', [Kubernetes, Docker])}
+				{ this.buildKnowledgeAndSkillsGroup('Monitoring', [Istio, Grafana, Prometheus, ELKStack])}
 				{ this.buildKnowledgeAndSkillsGroup('Code repo', [Git])}
 				{ this.buildKnowledgeAndSkillsGroup('CI/CD', [Jenkins, Gitlab])}
-				{ this.buildKnowledgeAndSkillsGroup('Processamento de Eventos', [Flink, Kafka])}
-				{ this.buildKnowledgeAndSkillsGroup('Processamento distribuído', [Spark])}
-				{ this.buildKnowledgeAndSkillsGroup('Linguagens de Programação', [Python, Java])}
+				{ this.buildKnowledgeAndSkillsGroup('Event Processing', [Flink, Kafka])}
+				{ this.buildKnowledgeAndSkillsGroup('Distributed Processing', [Spark])}
+				{ this.buildKnowledgeAndSkillsGroup('Programming Languages', [Python, Java])}
 								{ this.buildKnowledgeAndSkillsGroup('Front-end', [Android])}
 				{ this.buildKnowledgeAndSkillsGroup('Design', [AfterEffects, PremierePro, Photoshop])}
 			</div>

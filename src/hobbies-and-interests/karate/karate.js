@@ -6,9 +6,11 @@ class Karate extends Component {
 	render() {
 		return (
 			<div>
-				<div class="nav">
+				<div class="karate-title">KARATE</div>
+				<div class="karate-image">
 					<img class="karate-graph" src= { karate } />
-	        	</div>
+				</div>
+
 			</div>
 		)
 	}
