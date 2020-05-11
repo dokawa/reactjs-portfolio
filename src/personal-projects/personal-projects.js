@@ -14,9 +14,9 @@ class PersonalProjects extends Component {
   		super(props);
 
   		this.state = { entries: [
-  			{ title: "Build LOL 2019" },
-	    	{ title: "Wallpaper LOL 2019" },
-  			{ title: "Counter LOL 2019" },
+  			{ title: "Build League 2019" },
+	    	{ title: "Wallpaper League 2019" },
+  			{ title: "Counter League 2019" },
 			{ title: "Instagram Bot"}
   		],
   			title: "PERSONAL PROJECTS" };
@@ -55,7 +55,6 @@ class PersonalProjects extends Component {
 						</div>
 					</Link>
 				</div>
-
 			</div>
 
 		);
