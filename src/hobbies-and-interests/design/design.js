@@ -28,10 +28,11 @@ class Design extends Component {
 					<div className="contain">
 					  <div className="row">
 					    <div className="row__inner">
-
-					      { this.buildThumbnailElement("DicedThumbnail") }
-					      { this.buildThumbnailElement("N0ughtThumbnail") }
+					      { this.buildThumbnailElement("GlassThumbnail") }
+					      { this.buildThumbnailElement("CrossfireThumbnail") }
+					      { this.buildThumbnailElement("GlitchThumbnail") }
 						  { this.buildThumbnailElement("SpeakerThumbnail") }
+						  { this.buildThumbnailElement("DicedThumbnail") }
 						  { this.buildImageElement("NeverBeGameOver") }
 						  { this.buildImageElement("N0ughtBf3") }
 					    

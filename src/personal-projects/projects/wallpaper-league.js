@@ -9,8 +9,8 @@ class WallpaperLeague extends Component {
 	constructor(props) {
   		super(props);
 
-		this.state = 
-			{ title: "Wallpaper League 2019", year: "2016 - 2019", description: "Aplicativo que auxilia os usuários a encontrar e colocar as imagens dos personagens de “League of Legends” como wallpaper do smartphone\nCriou a conexão do aplicativo com a API do jogo com “Glide” para baixar as imagens\nExtendeu uma biblioteca Android para edição de imagens utilizando GPU, implementando função de ajuste de cor, saturação e brilho (hue, brightness, saturation)\n" };
+		this.state =
+			{ title: "Wallpaper League 2019", year: "2016 - 2019", description: "Co-developed an app that takes “League of Legends” character images to be used as wallpaper of the smartphone.\nCreated the architecture, design of the app and connection with the game API and the library “Glide” to download images.\nExtended an Android image edition library that uses the GPU, implementing hue, brightness and saturation adjustments.\n" };
 
 			}
 
