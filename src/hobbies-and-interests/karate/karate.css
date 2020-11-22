@@ -1,6 +1,6 @@
-.karate-graph {
+.karate-logo {
 	margin: 2em auto;
-	width: 100%;
+	width: 50%;
 }
 
 .karate-title {
@@ -17,4 +17,5 @@
 .karate-image {
 	margin: auto;
 	width: 50rem;
+	text-align: center;
 }

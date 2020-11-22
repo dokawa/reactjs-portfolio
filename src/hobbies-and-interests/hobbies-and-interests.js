@@ -19,7 +19,7 @@ class HobbiesAndInterests extends Component {
 			<Link to="/hobbies-and-interests/design/" class="svg-hobbie-and-interest-icon"><SVG src={ Design } /></Link>
 	   		<Link to="/hobbies-and-interests/reading/" class="svg-hobbie-and-interest-icon"><SVG src={ Reading } /></Link>
 	   		<Link to="/hobbies-and-interests/karate/" class="svg-hobbie-and-interest-icon"><SVG src={ Karate } /></Link>
-	   		<Link to="/hobbies-and-interests/investing/" class="svg-hobbie-and-interest-icon"><SVG src={ Investing } /></Link>
+	   		{ /* <Link to="/hobbies-and-interests/investing/" class="svg-hobbie-and-interest-icon"><SVG src={ Investing } /></Link> */ }
 	    	<div>{ PersonalInfo }</div>
 	    </div>
   	);

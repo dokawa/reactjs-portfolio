@@ -18,6 +18,7 @@ import Istio from 'assets/images/knowledge-and-skills/istio.png';
 import Spark from 'assets/images/knowledge-and-skills/spark.png';
 import Jenkins from 'assets/images/knowledge-and-skills/jenkins.png';
 import Gitlab from 'assets/images/knowledge-and-skills/gitlab.png';
+import Pandas from 'assets/images/knowledge-and-skills/pandas.png';
 import Android from 'assets/images/knowledge-and-skills/android.png';
 import Docker from 'assets/images/knowledge-and-skills/docker.png';
 import Ansible from 'assets/images/knowledge-and-skills/ansible.png';
@@ -34,6 +35,7 @@ class KnowledgeAndSkills extends Component {
 				{ this.buildKnowledgeAndSkillsGroup('Monitoring', [Istio, Grafana, Prometheus, ELKStack])}
 				{ this.buildKnowledgeAndSkillsGroup('Code repo', [Git])}
 				{ this.buildKnowledgeAndSkillsGroup('CI/CD', [Jenkins, Gitlab])}
+				{ this.buildKnowledgeAndSkillsGroup('Data Science', [Pandas]) }
 				{ this.buildKnowledgeAndSkillsGroup('Event Processing', [Flink, Kafka])}
 				{ this.buildKnowledgeAndSkillsGroup('Distributed Processing', [Spark])}
 				{ this.buildKnowledgeAndSkillsGroup('Programming Languages', [Python, Java])}
