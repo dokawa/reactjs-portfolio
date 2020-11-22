@@ -16,10 +16,10 @@ class HobbiesAndInterests extends Component {
   render() {
     return (
 	    <div class="container">
-			<Link to="/hobbies-and-interests/design/" class="svg-hobbie-and-interest-icon"><SVG src={ Design } /></Link>
-	   		<Link to="/hobbies-and-interests/reading/" class="svg-hobbie-and-interest-icon"><SVG src={ Reading } /></Link>
-	   		<Link to="/hobbies-and-interests/karate/" class="svg-hobbie-and-interest-icon"><SVG src={ Karate } /></Link>
-	   		{ /* <Link to="/hobbies-and-interests/investing/" class="svg-hobbie-and-interest-icon"><SVG src={ Investing } /></Link> */ }
+			<Link to="/hobbies-and-interests/design/" class="svg-hobbie-and-interest-icon"><SVG src={ Design } alt="Design"/></Link>
+	   		<Link to="/hobbies-and-interests/reading/" class="svg-hobbie-and-interest-icon"><SVG src={ Reading } alt="Reading"/></Link>
+	   		<Link to="/hobbies-and-interests/karate/" class="svg-hobbie-and-interest-icon"><SVG src={ Karate } alt="Karate"/></Link>
+	   		{ /* <Link to="/hobbies-and-interests/investing/" class="svg-hobbie-and-interest-icon"><SVG src={ Investing } alt="Investing"/></Link> */ }
 	    	<div>{ PersonalInfo }</div>
 	    </div>
   	);
