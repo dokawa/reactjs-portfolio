@@ -23,10 +23,6 @@ import KnowledgeAndSkills from 'knowledge-and-skills/knowledge-and-skills'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
-function Users() {
-  return <h2>Users</h2>;
-}
-
 class App extends Component {
   render() {
     return (
@@ -35,7 +31,7 @@ class App extends Component {
       <Router>
         <Header></Header>
         <div>
-          <Route path="/" exact component={ Users } />
+          <Route path="/" exact component={ Experience } />
           <Route path="/experience/" exact component={ Experience } />
           <Route path="/personal-projects/" component={ PersonalProjects } />
           <Route path="/education/" component={ Education } />
@@ -45,9 +41,11 @@ class App extends Component {
           <Route path="/hobbies-and-interests/reading" exact component={ Reading } />
           <Route path="/hobbies-and-interests/investing" exact component={ Investing } />
           <Route path="/hobbies-and-interests/karate" exact component={ Karate } />
+          <Route path="/hobbies-and-interests/**" component={ Design } />
           <Route path="/personal-projects/build_league" exact component={ BuildLeague } />
           <Route path="/personal-projects/wallpaper_league" exact component={ WallpaperLeague } />
           <Route path="/personal-projects/counter_league" exact component={ CounterLeague } />
+          <Route path="/personal-projects/**" exact component={ BuildLeague } />
           <Route path="/personal-projects/instagram_poster" exact component={ InstagramPoster } />
         </div>
       </Router>
