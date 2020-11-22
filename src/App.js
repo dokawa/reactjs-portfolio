@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import logo from 'logo.svg';
 import 'App.css';
 import Header from 'header/header';
 import Timeline from 'timeline/timeline';
 import Background from 'background/background';
 import ContactInfo from 'contact-info/contact-info';
-import PersonalInfo from 'personal-info/personal-info';
 import Experience from 'experience/experience';
 import PersonalProjects from 'personal-projects/personal-projects';
 import HobbiesAndInterests from 'hobbies-and-interests/hobbies-and-interests';

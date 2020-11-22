@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Timeline from 'timeline/timeline';
 import BuildIcon from 'assets/images/build - 512 x 512.png';
 import WallpaperIcon from 'assets/images/wallpaper - 512 x 512.png';
 import CounterIcon from 'assets/images/counter - 512 x 512.png';
