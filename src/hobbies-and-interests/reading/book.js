@@ -36,7 +36,7 @@ class Book extends Component {
 		return(
 			<div class="book-container">
 				<a href={ this.props.book_link }>
-					<img class="book_cover" src={ this.get_path(this.props.book_title) } />
+					<img class="book_cover" src={ this.get_path(this.props.book_title) } alt="Book cover"/>
 				</a>
 			</div>
 		)

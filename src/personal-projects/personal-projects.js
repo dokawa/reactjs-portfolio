@@ -33,25 +33,25 @@ class PersonalProjects extends Component {
 					<Link to="/personal-projects/build_league/">
 						<div class="project-icon">
 							<div class="personal-projects-element-title">{ this.state.entries[0].title }</div>
-							<div><img class="icon" src={ BuildIcon }/></div>
+							<div><img class="icon" src={ BuildIcon } alt="Build icon"/></div>
 						</div>
 					</Link>
 					<Link to="/personal-projects/wallpaper_league/">
 						<div class="project-icon">
 							<div class="personal-projects-element-title">{ this.state.entries[1].title }</div>
-							<div><img class="icon" src={ WallpaperIcon }/></div>
+							<div><img class="icon" src={ WallpaperIcon } alt="Wallpaper icon"/></div>
 						</div>
 					</Link>
 					<Link to="/personal-projects/counter_league/">
 						<div class="project-icon">
 							<div class="personal-projects-element-title">{ this.state.entries[2].title }</div>
-							<div><img class="icon" src={ CounterIcon }/></div>
+							<div><img class="icon" src={ CounterIcon } alt="Counter icon"/></div>
 						</div>
 					</Link>
 					<Link to="/personal-projects/instagram_poster/">
 						<div class="project-icon">
 							<div class="personal-projects-element-title">{ this.state.entries[3].title }</div>
-							<div><img class="icon" src={ InstagramIcon }/></div>
+							<div><img class="icon" src={ InstagramIcon } alt="Instagram icon"/></div>
 						</div>
 					</Link>
 				</div>

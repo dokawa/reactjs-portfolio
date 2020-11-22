@@ -7,8 +7,7 @@ class Karate extends Component {
 		return (
 			<div>
 				<div class="karate-title">KARATE</div>
-				<div class="karate-image">
-					<div>I've been training Shotokan traditional Karate for more than 4 years.
+				<div>I've been training Shotokan traditional Karate for more than 4 years.
 					For most people, Karate is often taken as sports Karate due to competition appeareances in media, but there are significant differences between
 					traditional Karate and sports Karate.
 					In traditional Karate we train a wide variety of techniques not only those allowed in championships. 
@@ -16,7 +15,9 @@ class Karate extends Component {
 					In sports Karate the goal is to score points, so it focus in speed over impact of strikes.
 					The goal in traditional Karate is personal development with no encouragement to concern about victory or defeat.
 					</div>
-					<img class="karate-logo" src= { shotokan } />
+				<div class="karate-image">
+
+					<img class="karate-logo" src= { shotokan } alt="Shotokan logo"/>
 
 				</div>
 

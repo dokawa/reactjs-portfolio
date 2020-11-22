@@ -49,7 +49,7 @@ class KnowledgeAndSkills extends Component {
 		console.log(this.props.entries);
 			return 	(<div class="knowledge-and-skills-element">
 						<div class="knowledge-and-skills-title">{ title }</div>
-						{ image_list.map((img, i) => <img class="knowledge-and-skills-icon" key={ i } src={ img } />) }
+						{ image_list.map((img, i) => <img class="knowledge-and-skills-icon" key={ i } src={ img } alt="Knowledge or skill icon"/>) }
 					</div>
 			);
 	}
