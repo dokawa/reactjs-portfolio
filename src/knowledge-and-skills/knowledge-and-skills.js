@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SVG from 'react-inlinesvg'
 import './knowledge-and-skills.css'
 import AfterEffects from 'assets/images/knowledge-and-skills/after_effects.png';
 import PremierePro from 'assets/images/knowledge-and-skills/premiere_pro.png';

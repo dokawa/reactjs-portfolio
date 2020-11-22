@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import 'App.css';
 import Header from 'header/header';
-import Timeline from 'timeline/timeline';
 import Background from 'background/background';
 import ContactInfo from 'contact-info/contact-info';
 import Experience from 'experience/experience';
@@ -43,8 +42,9 @@ class App extends Component {
           <Route path="/personal-projects/build_league" exact component={ BuildLeague } />
           <Route path="/personal-projects/wallpaper_league" exact component={ WallpaperLeague } />
           <Route path="/personal-projects/counter_league" exact component={ CounterLeague } />
-          <Route path="/personal-projects/**" exact component={ BuildLeague } />
           <Route path="/personal-projects/instagram_poster" exact component={ InstagramPoster } />
+          <Route path="/personal-projects/**" exact component={ BuildLeague } />
+
         </div>
       </Router>
 
