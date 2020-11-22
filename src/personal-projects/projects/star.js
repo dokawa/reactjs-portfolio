@@ -3,9 +3,6 @@ import 'personal-projects/projects/star.css';
 
 
 class Star extends Component {
-	constructor(props) {
-  		super(props);
-  	}
 
 	render() {
 		return(

@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import 'personal-projects/projects/android-app.css';
-import star_full from 'assets/images/star_full.png';
-import star_0_1 from 'assets/images/star_0_1.png';
-import star_0_6 from 'assets/images/star_0_6.png';
-import star_0_7 from 'assets/images/star_0_7.png';
 import user_icon from 'assets/images/user_icon.png';
 import Star from 'personal-projects/projects/star';
 
