@@ -10,7 +10,7 @@ class BuildLeague extends Component {
   		super(props);
 
         this.state = 
-        	{ title: "Build League 2019", year: "2016 - 2019", description: "Co-developed an app that helps players of the game \“League of Legends\” by showing a default set of items to buy for each character, item information, skill order of improvement and rune configuration.\nCreated the architecture and design of the app. Item information is scrapped from de oficial site.",
+        	{ title: "Build League 2019", year: "2016 - 2019", description: "Co-developed an app that helps players of the game “League of Legends” by showing a default set of items to buy for each character, item information, skill order of improvement and rune configuration.\nCreated the architecture and design of the app. Item information is scrapped from de oficial site.",
 		};     
     }
 
