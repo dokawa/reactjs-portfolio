@@ -3,9 +3,6 @@ import Instagram from 'assets/images/instagram.jpeg';
 import 'personal-projects/projects/instagram-poster.css';
 
 class InstagramPoster extends Component {
-	constructor(props) {
-  		super(props);
-  	}
 
 	render() {
 		return (
@@ -14,7 +11,7 @@ class InstagramPoster extends Component {
 				<div class="project-text">A Python project that automates an instagram account by posting images and interacting with users.</div>
 				<div class="project-text">948 followers in 5 months decomissioned when instagram declared the war on bots. 
 				Retaken with 790 followers after one year, with the possibility of using smartphone automation instead of Selenium. (it's easier to evade detection with the app than in browser)</div>
-				<img class="instagram-screenshot" src= { Instagram } />
+				<img class="instagram-screenshot" src= { Instagram } alt="Instagram screenshot" />
 				<div class="project-text">It consists on five modules, scrapper, parser, fetch relationship, filter users and smartphone automator. </div>
 				<div class="project-text"><b>Scrapper: </b>an open-source instagram scrapper that downloads the images and the metadata 
 				(comments, followers, number of likes, etc) of a given Instagram account</div>
