@@ -64,7 +64,7 @@ class AndroidApp extends Component{
 
 	buildAndroidAppElement(image_list) {
 		return 	(<div class="android-app-wrapper">
-					{ image_list.map((img, i) => <img class="android-app-screenshot" key={ i } src={ img } />) }
+					{ image_list.map((img, i) => <img class="android-app-screenshot" key={ i } src={ img } alt="Android screenshot"/>) }
 				</div>
 		);
 	}
