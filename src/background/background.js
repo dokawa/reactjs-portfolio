@@ -5,12 +5,11 @@ class Background extends Component {
 	render() {
 		return(
 			<div>
-				<div class='background'/> 
-				<div class="outer">
+				<div class="outer background">
 				  	<div class="middle">
 				    	<div class="inner">
 				    		<div class="name">Daniel Akio Okawa</div>
-				      		<div class="subtitle">ANALISTA DE PESQUISA E INOVAÇÃO</div>
+				      		<div class="subtitle">RESEARCH AND INOVATION ANALYST</div>
 				    	</div>
 				  	</div>
 				</div>
