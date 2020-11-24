@@ -14,6 +14,11 @@
 	padding: .2rem;
 }
 
+.karate-text {
+	width: 50rem;
+	margin: 0 auto;
+}
+
 .karate-image {
 	margin: auto;
 	width: 50rem;

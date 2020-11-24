@@ -7,7 +7,7 @@ class Karate extends Component {
 		return (
 			<div>
 				<div class="karate-title">KARATE</div>
-				<div>I've been training Shotokan traditional Karate for more than 4 years.
+				<div class="karate-text">I've been training Shotokan traditional Karate for more than 4 years.
 					For most people, Karate is often taken as sports Karate due to competition appeareances in media, but there are significant differences between
 					traditional Karate and sports Karate.
 					In traditional Karate we train a wide variety of techniques not only those allowed in championships. 

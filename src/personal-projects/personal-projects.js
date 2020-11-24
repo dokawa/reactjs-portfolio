@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect, Link } from "react-router-dom";
 import BuildIcon from 'assets/images/build - 512 x 512.png';
 import WallpaperIcon from 'assets/images/wallpaper - 512 x 512.png';
 import CounterIcon from 'assets/images/counter - 512 x 512.png';
 import InstagramIcon from 'assets/images/instagram.png';
+import BuildLeague from 'personal-projects/projects/build-league'
+import WallpaperLeague from 'personal-projects/projects/wallpaper-league'
+import CounterLeague from 'personal-projects/projects/counter-league'
+import InstagramPoster from 'personal-projects/projects/instagram-poster'
 import 'personal-projects/personal-projects.css'
 
 
@@ -53,6 +57,14 @@ class PersonalProjects extends Component {
 						</div>
 					</Link>
 				</div>
+
+				<Route>
+				    <Route path="/personal-projects/build_league" exact component={ BuildLeague } />
+		            <Route path="/personal-projects/wallpaper_league" exact component={ WallpaperLeague } />
+		            <Route path="/personal-projects/counter_league" exact component={ CounterLeague } />
+		            <Route path="/personal-projects/instagram_poster" exact component={ InstagramPoster } />
+		            <Redirect to="/personal-projects/build_league"/> 
+		        </Route>
 			</div>
 
 		);
