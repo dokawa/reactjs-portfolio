@@ -39,15 +39,13 @@ class AndroidApp extends Component{
 
 	getLastStar(rating) {
 		let rest = (rating - Math.floor(rating)).toFixed(1);
-		console.log(Math.floor(rating));
-		console.log(rest);
-		if (rest == 0.1) {
+		if (rest === "0.1") {
 			return(<div class="android-app-star">{ <Star value= { 10 } /> }</div>);
 		}
-		else if (rest == 0.6) {
+		else if (rest === "0.6") {
 			return(<div class="android-app-star">{ <Star value= { 60 } /> }</div>);
 		}
-		else if (rest == 0.7) {
+		else if (rest === "0.7") {
 			return(<div class="android-app-star">{ <Star value= { 70 } /> }</div>);
 		}
 		else {

@@ -9,7 +9,7 @@ import HobbiesAndInterests from 'hobbies-and-interests/hobbies-and-interests';
 import Education from 'education/education';
 import Footer from 'footer/footer';
 import KnowledgeAndSkills from 'knowledge-and-skills/knowledge-and-skills'
-import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
 class App extends Component {

@@ -8,8 +8,7 @@ class CounterLeague extends Component {
   		super(props);
 
 		this.state = 
-			{ title: "Counter League 2019", year: "2016 - 2019", description: "Co-developed an app that helps the player pick a character that is strong against the enemy character - counter - for the “League of Legends” game.\nCreated the architecture of the app, design and the backend voting structure in an AWS EC2 instance (Elastic Computing Cloud) and RDS.\
-				(Relational Database Service).\n" };
+			{ title: "Counter League 2019", year: "2016 - 2019", description: "Co-developed an app that helps the player pick a character that is strong against the enemy character - counter - for the “League of Legends” game.\nCreated the architecture of the app, design and the backend voting structure in an AWS EC2 instance (Elastic Computing Cloud) and RDS. (Relational Database Service).\n" };
 		}
 
 	render() {

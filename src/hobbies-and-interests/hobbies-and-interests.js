@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { BrowserRouter as Router, Route, Redirect, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import SVG from 'react-inlinesvg'
 import PersonalInfo from 'personal-info/personal-info';
 import 'hobbies-and-interests/hobbies-and-interests.css';
@@ -27,10 +27,12 @@ class HobbiesAndInterests extends Component {
 	    	<div>{ PersonalInfo }</div>
 	    </div>
 
-	    <Route path="/hobbies-and-interests/" exact component={ Design } />
-    	<Route path="/hobbies-and-interests/design" exact component={ Design } />
-        <Route path="/hobbies-and-interests/reading" exact component={ Reading } />
-        <Route path="/hobbies-and-interests/karate" exact component={ Karate } />
+	    <Router>
+		    <Route path="/hobbies-and-interests/" exact component={ Design } />
+	    	<Route path="/hobbies-and-interests/design" exact component={ Design } />
+	        <Route path="/hobbies-and-interests/reading" exact component={ Reading } />
+	        <Route path="/hobbies-and-interests/karate" exact component={ Karate } />
+	    </Router>
 
 	    </>
 

@@ -14,7 +14,7 @@ class ImageFrame extends Component {
 				    <button type="button" class="close full-height" data-dismiss="modal" aria-hidden="true" onClick={ this.props.resetPlayer }>X</button>
 				    <h3>{ this.props.imageName }</h3>
 				  </div>
-				  <div class="modal-body"><img class="image" src={ VideosAndThumbnails[ this.props.imageName ] } alt="Image frame"/></div>
+				  <div class="modal-body"><img class="image" src={ VideosAndThumbnails[ this.props.imageName ] } alt="Frame"/></div>
 				  <div class="modal-footer"></div>
 			</div>
 	    </div>
