@@ -6,7 +6,7 @@ class Background extends Component {
 	render() {
 		return(
 			<div class="outer">
-				<img class="background" src= { BackgroundImage }/>
+				<img class="background" src= { BackgroundImage } alt="Background image"/>
 			  	<div class="middle">
 			    	<div class="inner">
 			    		<div class="name">Daniel Akio Okawa</div>

@@ -15,7 +15,7 @@ class AndroidApp extends Component{
 						<div class="android-app-rating">
 							{ this.renderStars(this.props.rating_info[0]) }
 						</div>
-						<div><img src= { user_icon }/> { this.props.rating_info[1] } total</div>
+						<div><img src= { user_icon } alt="User icon"/> { this.props.rating_info[1] } total</div>
 					</div>
 					<div class="android-app-text">Play Store details: { this.props.rating_info[2] } active users more than { this.props.rating_info[3] } downloads - Data from 01/2019 – has since been decomissioned. { this.buildTextFromLinebreaker(this.props.description) }</div>
 				</div>

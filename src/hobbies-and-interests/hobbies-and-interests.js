@@ -9,7 +9,7 @@ import KarateIcon from 'assets/images/hobbies-and-interests/karate.svg';
 import DesignIcon from 'assets/images/hobbies-and-interests/design.svg';
 import Design from 'hobbies-and-interests/design/design';
 import Reading from 'hobbies-and-interests/reading/reading';
-import Investing from 'hobbies-and-interests/investing/investing';
+// import Investing from 'hobbies-and-interests/investing/investing';
 import Karate from 'hobbies-and-interests/karate/karate';
 // import Investing from 'assets/images/hobbies-and-interests/investing.svg';
 
