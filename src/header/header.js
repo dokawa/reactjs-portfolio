@@ -8,13 +8,11 @@ class Header extends Component {
 		return (
 			<div class = "header">
 				<div class="nav">
-
 						<span class="nav-item"><Link to="/experience/" class="anchor">Experience</Link></span>
 						<span class="nav-item"><Link to="/education/" class="anchor">Education</Link></span>
 						<span class="nav-item"><Link to="/personal-projects/" class="anchor">Personal Projects</Link></span>
 						<span class="nav-item"><Link to="/knowledge-and-skills/" class="anchor">Knowledge and Skills</Link></span>
 						<span class="nav-item"><Link to="/hobbies-and-interests/" class="anchor">Hobbies and Interests</Link></span>
-
 	        	</div>
 				<Router>
         		</Router>

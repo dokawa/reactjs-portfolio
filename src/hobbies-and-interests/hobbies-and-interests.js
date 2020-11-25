@@ -27,11 +27,13 @@ class HobbiesAndInterests extends Component {
 	    	<div>{ PersonalInfo }</div>
 	    </div>
 
+	    
+	    <Route path="/hobbies-and-interests/" exact component={ Design } />
+    	<Route path="/hobbies-and-interests/design" exact component={ Design } />
+        <Route path="/hobbies-and-interests/reading" exact component={ Reading } />
+        <Route path="/hobbies-and-interests/karate" exact component={ Karate } />
+
 	    <Router>
-		    <Route path="/hobbies-and-interests/" exact component={ Design } />
-	    	<Route path="/hobbies-and-interests/design" exact component={ Design } />
-	        <Route path="/hobbies-and-interests/reading" exact component={ Reading } />
-	        <Route path="/hobbies-and-interests/karate" exact component={ Karate } />
 	    </Router>
 
 	    </>

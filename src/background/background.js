@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './background.css'
-import BackgroundImage from 'assets/images/background.png'
+import BackgroundImage from 'assets/images/background.jpg'
 
 class Background extends Component {
 	render() {

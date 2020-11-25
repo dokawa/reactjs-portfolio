@@ -59,12 +59,14 @@ class PersonalProjects extends Component {
 				</div>
 
 
-				<Router>
-				    <Route path="/personal-projects/build_league" exact component={ BuildLeague } />
-		            <Route path="/personal-projects/wallpaper_league" exact component={ WallpaperLeague } />
-		            <Route path="/personal-projects/counter_league" exact component={ CounterLeague } />
-		            <Route path="/personal-projects/instagram_poster" exact component={ InstagramPoster } />
-		            <Redirect to="/personal-projects/build_league"/> 
+
+			    <Route path="/personal-projects/build_league" exact component={ BuildLeague } />
+	            <Route path="/personal-projects/wallpaper_league" exact component={ WallpaperLeague } />
+	            <Route path="/personal-projects/counter_league" exact component={ CounterLeague } />
+	            <Route path="/personal-projects/instagram_poster" exact component={ InstagramPoster } />
+	            <Redirect to="/personal-projects/build_league"/> 
+	            
+		        <Router>
 		        </Router>
 			</div>
 
