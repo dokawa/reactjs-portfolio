@@ -49,7 +49,7 @@ class AndroidApp extends Component{
 			return(<div class="android-app-star">{ <Star value= { 70 } /> }</div>);
 		}
 		else {
-			throw("Rating value not defined");
+			throw new Error("Rating value not defined");
 		}
 	}
 
