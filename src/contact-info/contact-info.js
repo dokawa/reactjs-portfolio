@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './contact-info.css'
 import Linkedin from '../assets/images/linkedin.png';
+import GMail from '../assets//images/gmail.png';
 
 class ContactInfo extends Component {
 	render() {
@@ -8,16 +9,11 @@ class ContactInfo extends Component {
 			<div>
 				<div class="title">CONTACT</div>
 				<div class="container">
-					<div>
-						<p class="info">E-mail:</p>
-						<p class="info">Cel:</p>
-					</div>
-					<div>
-						<p class="value">daniel.okawa@gmail.com</p>
-						<p class="value">(11) 97487-1303</p>
-					</div>
+
 				</div>
-				<div class="social-media"><a href="https://br.linkedin.com/in/daniel-okawa-4211b3141/%7Bcountry%3Dbr%2C+language%3Dpt%7D?trk=people-guest_profile-result-card_result-card_full-click"><img class="contact-info-icon"src= { Linkedin } alt="Linkedin icon"/></a></div>
+
+					<div class="social-media"><a href="https://br.linkedin.com/in/daniel-okawa-4211b3141/%7Bcountry%3Dbr%2C+language%3Dpt%7D?trk=people-guest_profile-result-card_result-card_full-click"><img class="contact-info-icon"src= { Linkedin } alt="Linkedin icon"/></a></div>
+					<div class="social-media"><a href="mailto:daniel.okawa@gmail.com?subject=Hello%20again"><img class="contact-info-icon"src= { GMail } alt="Gmail icon"/></a></div>
 
 			</div>
 		)
