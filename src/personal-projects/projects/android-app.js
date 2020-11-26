@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'personal-projects/projects/android-app.css';
-import user_icon from 'assets/images/user_icon.png';
+import user_icon from 'assets/images/personal-projects/user_icon.png';
 import Star from 'personal-projects/projects/star';
 
 class AndroidApp extends Component{

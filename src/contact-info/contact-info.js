@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './contact-info.css'
-import Linkedin from '../assets/images/linkedin.png';
-import GMail from '../assets//images/gmail.png';
+import Linkedin from '../assets/images/contact-info/linkedin.png';
+import GMail from '../assets//images/contact-info/gmail.png';
 
 class ContactInfo extends Component {
 	render() {

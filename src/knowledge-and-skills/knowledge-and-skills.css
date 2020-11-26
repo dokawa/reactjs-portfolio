@@ -23,5 +23,12 @@
   margin: 1rem;
 }
 
+@media (max-width: 1200px) {
+	.knowledge-and-skills-icon {
+		width: 5rem;
+		height: 5rem;
+	}
+}
+
 
 

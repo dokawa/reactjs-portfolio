@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import AndroidApp from 'personal-projects/projects/android-app';
 import 'personal-projects/projects/android-app.css'
-import MainScreenScreenshot from 'assets/images/league-apps-screenshots/wallpaper-league-screenshots/wallpaper_league_main_screen.png';
-import CharacterWallpaperScreenshot from 'assets/images/league-apps-screenshots/wallpaper-league-screenshots/wallpaper_league_character_wallpapers.png';
-import CharacterWallpaperEditScreenshot from 'assets/images/league-apps-screenshots/wallpaper-league-screenshots/wallpaper_league_wallpaper_edit.png';
+import MainScreenScreenshot from 'assets/images/personal-projects/league-apps-screenshots/wallpaper-league-screenshots/wallpaper_league_main_screen.png';
+import CharacterWallpaperScreenshot from 'assets/images/personal-projects/league-apps-screenshots/wallpaper-league-screenshots/wallpaper_league_character_wallpapers.png';
+import CharacterWallpaperEditScreenshot from 'assets/images/personal-projects/league-apps-screenshots/wallpaper-league-screenshots/wallpaper_league_wallpaper_edit.png';
 
 class WallpaperLeague extends Component {
 	constructor(props) {

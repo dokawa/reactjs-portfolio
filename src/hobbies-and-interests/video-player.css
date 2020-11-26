@@ -56,3 +56,9 @@
     width: 38px; }
 
 
+@media (max-width: 1200px) {
+  .lightbox {
+    width: 50%;
+    height: 50%;
+  }
+}

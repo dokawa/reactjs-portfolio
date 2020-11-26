@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AndroidApp from 'personal-projects/projects/android-app';
-import MainScreenScreenshot from 'assets/images/league-apps-screenshots/counter-league-screenshots/counter_league_main_screen.png';
-import CharacterCounterScreenshot from 'assets/images/league-apps-screenshots/counter-league-screenshots/counter_league_character_counters.png';
+import MainScreenScreenshot from 'assets/images/personal-projects/league-apps-screenshots/counter-league-screenshots/counter_league_main_screen.png';
+import CharacterCounterScreenshot from 'assets/images/personal-projects/league-apps-screenshots/counter-league-screenshots/counter_league_character_counters.png';
 
 class CounterLeague extends Component {
 	constructor(props) {
