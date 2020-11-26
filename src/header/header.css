@@ -8,7 +8,7 @@
 .nav {
     justify-content: center;
 	display: flex;
-	margin-bottom: 10rem;
+	margin-bottom: 2rem;
 }
 
 .nav-item {
@@ -35,5 +35,6 @@
   .nav-item {
     width: auto;
     margin: 10px;
+    font-size: 0.8rem;
   }
 }

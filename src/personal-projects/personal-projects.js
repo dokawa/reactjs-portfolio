@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Redirect, Link } from "react-router-dom";
-import BuildIcon from 'assets/images/build - 512 x 512.png';
-import WallpaperIcon from 'assets/images/wallpaper - 512 x 512.png';
-import CounterIcon from 'assets/images/counter - 512 x 512.png';
-import InstagramIcon from 'assets/images/instagram.png';
+import BuildIcon from 'assets/images/personal-projects/build - 512 x 512.png';
+import WallpaperIcon from 'assets/images/personal-projects/wallpaper - 512 x 512.png';
+import CounterIcon from 'assets/images/personal-projects/counter - 512 x 512.png';
+import InstagramIcon from 'assets/images/personal-projects/instagram.png';
 import BuildLeague from 'personal-projects/projects/build-league'
 import WallpaperLeague from 'personal-projects/projects/wallpaper-league'
 import CounterLeague from 'personal-projects/projects/counter-league'

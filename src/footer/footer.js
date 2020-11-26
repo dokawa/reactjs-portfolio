@@ -4,7 +4,7 @@ import './footer.css';
 class Footer extends Component{
 	render() {
 		return (
-			<div class="footer">© 2019 por Daniel Akio Okawa</div>
+			<div class="footer">© 2019 • Daniel Akio Okawa</div>
 		);
 	}
 }

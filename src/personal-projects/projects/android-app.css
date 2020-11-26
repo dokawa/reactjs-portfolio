@@ -49,5 +49,20 @@
 
 .android-app-numeric-rating {
 	font-size: 5.3rem;
-
 }
+
+@media (max-width: 1200px) {
+	.android-app-title {
+		font-size: 1.5rem;
+	}
+	.android-app-text {
+		max-width: 25rem;
+	}
+	.android-app-numeric-rating {
+
+		margin: 1rem;
+	}
+}
+
+
+

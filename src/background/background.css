@@ -11,7 +11,7 @@
 	font-size: 4rem;
 	color: white;
 	z-index: 1;
-  	border: 1rem solid white;
+  	border: 0.8rem solid white;
 }
 
 .subtitle {
@@ -47,11 +47,11 @@
 
 @media (max-width: 1200px) {
   .name {
-  	font-size: 2rem;
+  	font-size: 3rem;
   	border: 0.2rem solid white;
   }
 
   .subtitle {
-  	font-size: 0.1rem;
+  	font-size: 0.8rem;
   }
 }

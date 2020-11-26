@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import AndroidApp from 'personal-projects/projects/android-app';
 import MainScreenScreenshot from 'assets/images/league-apps-screenshots/build-league-screenshots/build_league_main_screen.png';
-import CharacterBuildScreenshotPartOne from 'assets/images/league-apps-screenshots/build-league-screenshots/build_league_character_build_1.png';
-import CharacterBuildScreenshotPartTwo from 'assets/images/league-apps-screenshots/build-league-screenshots/build_league_character_build_2.png';
-import CharacterBuildScreenshotPartThree from 'assets/images/league-apps-screenshots/build-league-screenshots/build_league_character_build_3.png';
+import CharacterBuildScreenshotPartOne from 'assets/images/personal-projects/league-apps-screenshots/build-league-screenshots/build_league_character_build_1.png';
+import CharacterBuildScreenshotPartTwo from 'assets/images/personal-projects/league-apps-screenshots/build-league-screenshots/build_league_character_build_2.png';
+import CharacterBuildScreenshotPartThree from 'assets/images/personal-projects/league-apps-screenshots/build-league-screenshots/build_league_character_build_3.png';
 
 class BuildLeague extends Component {
 	constructor(props) {

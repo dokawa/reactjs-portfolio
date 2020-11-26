@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Instagram from 'assets/images/instagram.jpeg';
+import Instagram from 'assets/images/personal-projects/instagram.jpeg';
 import 'personal-projects/projects/instagram-poster.css';
 
 class InstagramPoster extends Component {
