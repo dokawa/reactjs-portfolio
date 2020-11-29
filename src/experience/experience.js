@@ -6,11 +6,11 @@ class Experience extends Component {
   		super(props);
 
   		this.state = { entries: [
-        { year: "2020 - Banco Bradesco SA", text: "Study of scientific papers of possible vulnerabilities of 5G technology.\nMeetings with providers to know their solutions for IoT (Google, Amazon, Microsoft, Samsung, Dell, Huawei, Fujitsu, Logicallis and others)." },
-  			{ year: "2019 - Banco Bradesco SA", text: "Kubernetes cluster creation using Terraform and Ansible\nDeploy of Event Processing infrastructure to Kubernetes cluster\nDeploy of monitoring tools (Prometheus, Graphana, Istio) to Kubernetes cluster"},
-  			{ year: "2018 - Scopus Soluções em TI LTDA", text: "Implementation of ELK stack (Elastic Search, Logstash and Kibana) for log visualization\nImplemented Event Processing and Complex Event Processing architecture using Apache Flink and Kafka" },
-	    	{ year: "2017 - Scopus Soluções em TI LTDA", text: "Developed Apache Spark appllication to identify most visited places using smartphone app location data\nDeveloped Apache Spark application using java API to cluter most visited places"  },
-			  { year: "2016 - Scopus Soluções em TI LTDA", text: "Co-developed an app to identify activities (walking, running, idle, in transportation, subway, airplane) using smartphone sensors (accelerometer, proximity, GPS)\nDeveloped java library to identify house and most visited places using only GPS and Wi-fi location data" }
+        { year: "2020 - Banco Bradesco SA", text: "Study of scientific papers of possible vulnerabilities of 5G technology\nMeetings with providers to know their solutions for IoT (Google, Amazon, Microsoft, Samsung, Dell, Huawei, Fujitsu, Logicallis and others)." },
+  			{ year: "2019 - Banco Bradesco SA", text: "Kubernetes cluster creation using Terraform and Ansible\nDeploy of Event Processing infrastructure to Kubernetes cluster\nDeploy of monitoring tools (Prometheus, Graphana, Istio) to Kubernetes cluster."},
+  			{ year: "2018 - Scopus Soluções em TI LTDA", text: "Implementation of ELK stack (Elastic Search, Logstash and Kibana) for log visualization\nImplemented Event Processing and Complex Event Processing architecture using Apache Flink and Kafka." },
+	    	{ year: "2017 - Scopus Soluções em TI LTDA", text: "Developed Apache Spark appllication to identify most visited places using smartphone app location data\nDeveloped Apache Spark application using java API to cluter most visited places."  },
+			  { year: "2016 - Scopus Soluções em TI LTDA", text: "Co-developed an app to identify activities (walking, running, idle, in transportation, subway, airplane) using smartphone sensors (accelerometer, proximity, GPS)\nDeveloped java library to identify house and most visited places using only GPS and Wi-fi location data." }
   			],
   			title: "EXPERIENCE",
   			subtitle: "",
